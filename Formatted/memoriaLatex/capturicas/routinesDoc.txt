@@ -1,0 +1,24 @@
+/**
+ * Type: GET
+ * Name: routines/
+ * Description: Returns a JSON containing every routine on the Database
+ * for a given Gym access key.
+ * Request:
+ *      -nameGym: string
+ *      -key: string
+ *      -user: string
+ *      -pwd: string
+ * Responses:
+ *      200:
+ *          -JSON object containing multiple routine objects:
+ *              -nameGym: string
+ *              -name: string
+ *              -objective: string
+ *              -series: int
+ *              -rep: int
+ *              -relaxTime: int
+ *      404:
+ *          -A feedback object
+ *      500:
+ *          -A feedback object
+ */

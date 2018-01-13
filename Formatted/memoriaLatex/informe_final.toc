@@ -1,0 +1,39 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Producto}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Primer Sprint}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Plan de producto y planificaci\IeC {\'o}n de lanzamientos}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}An\IeC {\'a}lisis de riesgos}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Pila de producto}{5}{subsection.2.1.3}
+\contentsline {subsubsection}{PBI: Crear esqueleto de la app}{6}{section*.2}
+\contentsline {subsubsection}{PBI: Servidor Remoto}{6}{section*.3}
+\contentsline {subsubsection}{PBI: Base de datos local}{7}{section*.4}
+\contentsline {subsubsection}{PBI: Descarga de ejercicios}{8}{section*.5}
+\contentsline {subsubsection}{PBI: Ver colecci\IeC {\'o}n de ejercicios}{8}{section*.6}
+\contentsline {subsubsection}{PBI: Ver ejercicio}{9}{section*.7}
+\contentsline {subsubsection}{PBI: Ver rutinas}{9}{section*.8}
+\contentsline {subsubsection}{PBI: Crear rutina}{10}{section*.9}
+\contentsline {subsubsection}{PBI: Ver rutina}{10}{section*.10}
+\contentsline {subsubsection}{PBI: Modificar rutina}{11}{section*.11}
+\contentsline {subsubsection}{PBI: Eliminar rutina}{11}{section*.12}
+\contentsline {subsection}{\numberline {2.1.4}Estado actual de la aplicaci\IeC {\'o}n}{11}{subsection.2.1.4}
+\contentsline {subsubsection}{Funcionalidad implementada}{11}{section*.13}
+\contentsline {subsubsection}{Boceto inicial GUI}{12}{section*.14}
+\contentsline {subsection}{\numberline {2.1.5}Aspectos de usabilidad}{12}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Arquitectura}{12}{subsection.2.1.6}
+\contentsline {subsubsection}{Arquitectura: Servidor}{12}{section*.15}
+\contentsline {subsubsection}{Arquitectura: Aplicaci\IeC {\'o}n m\IeC {\'o}vil}{19}{section*.16}
+\contentsline {section}{\numberline {2.2}Segundo Sprint}{19}{section.2.2}
+\contentsline {chapter}{\numberline {3}Proceso}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Primer Sprint}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{20}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Definici\IeC {\'o}n de hecho}{20}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Estrategia de control de versiones}{21}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Esfuerzos por persona}{21}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Diagrama de trabajo completado/pendiente}{21}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Velocidad del equipo}{21}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Resultados de la \IeC {\'u}ltima retrospectiva}{22}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{23}{subsection.3.1.9}
+\contentsline {section}{\numberline {3.2}Segundo Sprint}{24}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusiones}{25}{chapter.4}

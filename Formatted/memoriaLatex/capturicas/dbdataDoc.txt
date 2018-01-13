@@ -1,0 +1,19 @@
+/**
+ * Type: GET
+ * Name: dbdata/
+ * Description: Returns a JSON containing the Database info.
+ * Request:
+ *      -user: string
+ *      -pwd: string
+ * Responses:
+ *      200:
+ *          -JSON object containing multiple db information:
+ *              -dbSize: double (in MB)
+ *              -imageSize: double (in MB)
+ *              -totalSize: double (in MB)
+ *              -lastUpdate: date
+ *      404:
+ *          -A feedback message
+ *      500:
+ *          -A feedback message
+ */

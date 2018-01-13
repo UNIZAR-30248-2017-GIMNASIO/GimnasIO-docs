@@ -1,0 +1,36 @@
+
+/**
+ * Type: GET
+ * Name: /exercises/
+ * Description: Returns a JSON containing every exercise on the Database.
+ * Request:
+ *     -Headers: Credentials
+ *       -user: string
+ *       -pwd: string
+ * Responses:
+ *      200:
+ *          -JSON object containing multiple exercise objects:
+ *              -id: string
+ *              -name: string
+ *              -muscle: string
+ *              -description: string
+ *              -images: [string]
+ *              -tag: string
+ *      404:
+ *          -A feedback object
+ *      500:
+ *          -A feedback object
+ */
+/**
+ * Type: GET
+ * Name: /exercises/download
+ * Description: Returns an image for the exercise given.
+ * Request:
+ *     -Headers: Credentials
+ *       -image: string
+ * Responses:
+ *      success:
+ *          -Sends the image desired
+ *      404:
+ *          -A feedback object
+ */

@@ -1,0 +1,35 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}{section.1}
+\contentsline {section}{\numberline {2}Producto}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Plan de producto y planificaci\IeC {\'o}n de lanzamientos}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}An\IeC {\'a}lisis de riesgos}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Pila de producto}{6}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}PBI: Crear esqueleto de la app}{7}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}PBI: Servidor Remoto}{7}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}PBI: Base de datos local}{8}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}PBI: Descarga de ejercicios}{9}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}PBI: Ver colecci\IeC {\'o}n de ejercicios}{9}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}PBI: Ver ejercicio}{10}{subsubsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.7}PBI: Ver rutinas}{10}{subsubsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.8}PBI: Crear rutina}{11}{subsubsection.2.3.8}
+\contentsline {subsubsection}{\numberline {2.3.9}PBI: Ver rutina}{11}{subsubsection.2.3.9}
+\contentsline {subsubsection}{\numberline {2.3.10}PBI: Modificar rutina}{12}{subsubsection.2.3.10}
+\contentsline {subsubsection}{\numberline {2.3.11}PBI: Eliminar rutina}{12}{subsubsection.2.3.11}
+\contentsline {subsection}{\numberline {2.4}Estado actual de la aplicaci\IeC {\'o}n}{12}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Funcionalidad implementada}{12}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Boceto inicial GUI}{13}{subsubsection.2.4.2}
+\contentsline {subsection}{\numberline {2.5}Aspectos de usabilidad}{13}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Arquitectura}{13}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Arquitectura: Servidor}{13}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Arquitectura: Aplicaci\IeC {\'o}n m\IeC {\'o}vil}{20}{subsubsection.2.6.2}
+\contentsline {section}{\numberline {3}Proceso}{21}{section.3}
+\contentsline {subsection}{\numberline {3.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{21}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{21}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Definici\IeC {\'o}n de hecho}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Estrategia de control de versiones}{21}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Esfuerzos por persona}{22}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Diagrama de trabajo completado/pendiente}{22}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Velocidad del equipo}{22}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Resultados de la \IeC {\'u}ltima retrospectiva}{23}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{24}{subsection.3.9}
+\contentsline {section}{\numberline {4}Conclusiones}{26}{section.4}
