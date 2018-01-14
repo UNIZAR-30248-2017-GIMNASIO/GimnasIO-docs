@@ -32,7 +32,7 @@
 		\\Martínez Menéndez, Alberto %- 681061
 		\\Navarro Castillo, Alejandro %- XXXXXX
  		\\Salueña Sediles, Asier %- 610344
- 		\\Sanchez Salvador, Dario %- 680239
+ 		\\Sánchez Salvador, Darío %- 680239
  	}}
 \title{\textbf{Informe final del proyecto}}
 \date{08 de enero, 2018}
@@ -94,7 +94,7 @@ Con respecto a los lanzamientos, se han determinado varias fechas de lanzamiento
 		\caption{Riesgos detectados}
 	\end{table}                                             
 \end{landscape}
-\newpage\subsection{Pila de producto}
+\subsection{Pila de producto}
 \begin{table}[H]
 	\centering
 	\label{tab1}
@@ -450,7 +450,8 @@ La API cuenta con distintos métodos para consultar: ejercicios, rutinas, fechas
 	\lstinputlisting[language=python,firstline=1,lastline=22,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/gymsDoc.txt}
 	\caption{Especificación de la API POST \textit{/gym/newGym}}
 	\label{cod:posGym}
-\end{figure}\begin{figure}[H]
+\end{figure}
+\begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,firstline=23,lastline=48,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/gymsDoc.txt}
 	\caption{Especificación de la API POST \textit{/gym/newRoutine}}
@@ -474,7 +475,67 @@ Finalmente, las actividades se encargan de recoger todas estas funcionalidades y
 \end{figure}
 
 \section{Segundo Sprint}
+\subsection{Arquitectura}
+\subsubsection{Servidor}
+Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
+En este segundo sprint se ha desarrollado una aplicación web implementada sobre la misma arquitectura, por lo que se ha pasado de un Modelo-Controlador donde la vista era la aplicación Android a un Modelo-Vista-Controlador completo, donde la vista es tanto la aplicación Android como la página web, siendo que los contenidos accesibles son distintos en cada una de ellas.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{graficos/CyCserver.png}
+	\caption{Diagrama CyC del servidor }
+	\label{fig: CyCServ2}
+\end{figure}
+Se mantiene la API Rest como método de comunicación del servidor con el exterior. En la parte de Cliente, la aplicación Android accede a la API Rest de forma nativa con librerías Java, mientras que para la web, se ha utilizado Javascript (jQuery) y Ajax para realizar las peticiones y controlar los contenidos de las páginas estáticas.
 
+Además, se han realizado algunas modificaciones y añadido funcionalidades a la API existente. Estas son:
+\begin{itemize}
+	\item Pedir rutinas: Modificada para no devolver repeticiones, series y tiempo de descanso para cada rutina, sino que esa información esté contenida en cada ejercicio.
+	\item Actualizar rutina: Nueva entrada para permitir modificar repeticiones, series y tiempo de descanso para cada ejercicio.
+	\item Nueva rutina: Nueva entrada para permitir establecer repeticiones, series y tiempo de descanso para cada ejercicio.
+	\item Borrar rutina: Nueva entrada utilizada para borrar rutinas en el servidor.
+	\item Nuevo gimnasio: Modificada para enviar las claves por email en vez de en la respuesta.
+	\item Login gimnasio: Nueva entrada utilizada para comprobar las credenciales de entrada a la parte premium. Devuelve si son correctos o no, y en caso afirmativo, el tipo de usuario.
+	\item Pedir ejercicios: Modificada para permitir devolver repeticiones, series y tiempo de descanso para cada ejercicio.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{graficos/despliegue.png}
+	\caption{Diagrama de Despliegue }
+	\label{fig: deploy2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\lstinputlisting[breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{files/gyms.txt}
+	\caption{Especificación de la API gym}
+	\label{cod:apiEx}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\lstinputlisting[breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{files/exercises.txt}
+	\caption{Especificación de la API exercises}
+	\label{cod:apiRou}
+\end{figure}
+\newpage
+\begin{figure}[H]
+	\centering
+	\lstinputlisting[breaklines=true,firstline=0,lastline=50,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{files/routines.txt}
+	\label{cod:apiGym}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\lstinputlisting[breaklines=true,firstline=51,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{files/routines.txt}
+	\caption{Especificación de la API routines}
+	\label{cod:apiGym}
+\end{figure}
+\subsubsection{Aplicación móvil}
+Se mantiene una vez más el esqueleto de la arquitectura del primer sprint. Sin embargo, en este sprint se han realizado esfuerzos para modularizar el código y permitir una mayor reusabilidad de métodos y objetos. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{graficos/CyCApp.png}
+	\caption{Diagrama CyC de la aplicación }
+	\label{fig: CyCApp2}
+\end{figure}
+Se pueden observar dos nuevos componentes \textit{Services} y \textit{Database}, uno completamente nuevo y el otro toma el lugar de \verb|GymnasioDBAdapter|. Ambos son fruto de dicho proceso de modularización del código. Database contiene todos los objetos y métodos que interactúan con la base de datos SQLite. Por otro lado, Services representa los métodos encargados de interactuar con APIs externas, que en este caso es el servidor de GimnasIO.
 
 \chapter{Proceso}
 \section{Primer Sprint}
@@ -594,7 +655,6 @@ En este primer sprint este workflow ha sido ligeramente deficiente en la prácti
 De cara al segundo sprint se pretende realizar un énfasis en esta implementación. Los miembros del equipo serán recordados al menos una vez a la semana de mantener actualizadas sus tareas en el tablero, y, a su vez, se les exigirá una mayor atención hacia el tablero.
 \section{Segundo Sprint}
 \chapter{Conclusiones}
-
 Se espera obtener un grado de al menos notable en este primer sprint. Para ello se han seguido las recomendaciones establecidas en la presentación de Evaluación del proyecto. Las conseguidas satisfactoriamente son:
 \begin{itemize}
 	\item \textbf{El código del proyecto se aloja en Github y se trabaja de forma habitual contra él.} El equipo ha trabajado continuamente contra dos repositorios de Github.

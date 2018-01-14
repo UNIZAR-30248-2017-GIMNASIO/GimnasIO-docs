@@ -1,0 +1,77 @@
+/**
+ * Type: GET
+ * Name: routines/
+ * Description: Returns a JSON containing every routine on the Database
+ * for a given Gym access key.
+ * Request:
+ *      -nameGym: string
+ *      -key: string
+ *      -user: string
+ *      -pwd: string
+ * Responses:
+ *      200:
+ *          -JSON object containing multiple routine objects:
+ *              -name: string
+ *              -objective: string
+ *              -exercises: [string]
+ *      404:
+ *          -A feedback object
+ *      500:
+ *          -A feedback object
+ */
+ 
+ /**
+ * Type: POST
+ * Name: routines/newRoutine
+ * Description: Inserts a new Routine in a specified Gym collection.
+ * Request:
+ *     -Headers: Credentials
+ *       -user: string
+ *       -pwd: string
+ *       -nameGym: string
+ *       -key: string
+ *     -Body: A JSON routine object
+ *      -name: string
+ *      -objective: string
+ *      -exercises: [string]
+ *      -repetitions: [int]
+ *      -series: [int]
+ *      -relaxTime: [double]
+ * Responses:
+ *      200:
+ *          -A feedback object:
+ *              -success: true | false
+ *              -message: A description of how the operation went
+ *              -id: The id of the routine created
+ *      400:
+ *          -A feedback object
+ *      500:
+ *          -A feedback object
+ */
+ 
+ /**
+ * Type: PUT
+ * Name: routines/update
+ * Description: Updates the specified Routine and returns for a given Gym and returns a feedback object.
+ * Request:
+ *      -Headers: Credentials
+ *          -user: string
+ *          -pwd: string
+ *          -namegym: string
+ *          -key: string
+ *      -Body: A Routine object
+ *          -id: string
+ *          -name: string
+ *          -objective: string
+ *          -exercises: [string]
+ *          -repetitions: [int]
+ *          -series: [int]
+ *          -relaxTime: [double]
+ * Responses:
+ *      200:
+ *          -A feedback object
+ *      404:
+ *          -A feedback object
+ *      500:
+ *          -A feedback object
+ */
