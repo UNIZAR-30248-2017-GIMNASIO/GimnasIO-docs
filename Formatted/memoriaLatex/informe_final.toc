@@ -40,3 +40,5 @@
 \contentsline {subsection}{\numberline {3.1.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{30}{subsection.3.1.9}
 \contentsline {section}{\numberline {3.2}Segundo Sprint}{31}{section.3.2}
 \contentsline {chapter}{\numberline {4}Conclusiones}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Primer Sprint}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Segundo Sprint}{33}{section.4.2}

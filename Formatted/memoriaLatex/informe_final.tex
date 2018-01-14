@@ -655,6 +655,7 @@ En este primer sprint este workflow ha sido ligeramente deficiente en la prácti
 De cara al segundo sprint se pretende realizar un énfasis en esta implementación. Los miembros del equipo serán recordados al menos una vez a la semana de mantener actualizadas sus tareas en el tablero, y, a su vez, se les exigirá una mayor atención hacia el tablero.
 \section{Segundo Sprint}
 \chapter{Conclusiones}
+\section{Primer Sprint}
 Se espera obtener un grado de al menos notable en este primer sprint. Para ello se han seguido las recomendaciones establecidas en la presentación de Evaluación del proyecto. Las conseguidas satisfactoriamente son:
 \begin{itemize}
 	\item \textbf{El código del proyecto se aloja en Github y se trabaja de forma habitual contra él.} El equipo ha trabajado continuamente contra dos repositorios de Github.
@@ -672,7 +673,20 @@ Además, se han realizado algunas de las tareas del sobresaliente:
 	\item \textbf{Todas las historias de usuario / requisitos implementados tienen buenos criterios de aceptación.} Como se ha mencionado anteriormente, todos los requisitos del proyecto están dotados de buenos criterios de aceptación.
 	\item \textbf{La construcción se ha automatizado más allá de la compilación y gestión de dependencias.} Este requisito se ha completado a medias, en la parte de servidor, la integración con TravisCI y Codecov permite no solo construir el código y sus dependencias, sino comprobar el funcionamiento de los test y realizar un informe incluyendo la cobertura de código. En el segundo sprint se trabajará para implementar esta funcionalidad también en el proyecto de la aplicación y ampliarla hacia la generación del APK automáticamente y el despliegue automático del servidor cuando haya cambios en el repositorio.
 \end{itemize}
-
+\section{Segundo Sprint}
+Se espera obtener un grado de sobresaliente en este segundo sprint. Para ello se han cumplido los requisitos establecidos en la presentación de Evaluación del proyecto. Estas son:
+\begin{itemize}
+	\item 	\textbf{El código del proyecto se aloja en Github y se trabaja de forma habitual contra él.} El equipo ha trabajado continuamente contra tres repositorios de Github.
+	\item \textbf{El software funciona correctamente e implementa suficiente funcionalidad.} La aplicación contiene todas las funcionalidades acordadas e incluso se dispone de una aplicación Web para las funcionalidades externas a ella.
+	\item \textbf{Informe de proyecto suficiente y adecuado.} En este documento se encuentran todas las secciones demandadas, así como la documentación de diseño e implementación del sistema y el manual de usuario.
+	\item \textbf{Cobertura de test automáticos de al menos 50\% del código.} El servidor tiene una cobertura de 81\% de código \url{https://codecov.io/gh/UNIZAR-30248-2017-GIMNASIO/GimnasIO-server}. La cobertura en Android, debido al tipo de test utilizado, ha resultado imposible de obtener. Sin embargo, como se testearon todas las funcionalidades, es seguro decir que el 50\% de cobertura es perfectamente alcanzable.
+	\item \textbf{Definición de hecho clara.} La definición de hecho revisada y corregida de este segundo sprint se considera suficiente para satisfacer este requisito.
+	\item \textbf{Compilación y gestión de dependencias.} A nivel de servidor, se ha utilizado npm. A nivel de aplicación, se ha utilizado Gradle.
+	\item \textbf{Toda la documentación está bajo control de versiones. }Toda la documentación se encuentra tanto en Dropbox como en un repositorio de Github creado específicamente a tal efecto llamado gimnasio-docs.
+	\item \textbf{Todas las historias de usuario tienen buenos criterios de aceptación.} Los expuestos en este documento se consideran suficientemente buenos para ello.
+	\item \textbf{Se lleva un control de esfuerzos con horas dedicadas por persona a cada tarea.} Se han realizado todas las entregas de la hoja de esfuerzos con el desglose por persona de las horas dedicadas y a que tareas.
+	\item \textbf{La construcción se ha automatizado mas allá de la compilación y gestión de dependencias.} En la parte del servidor, con la implementación de Travis y Codecov se genera de forma automática un reporte de la cobertura de código. En el lado de Android, se genera de forma automática una reléase de Github a través también de Travis.
+\end{itemize}
 %\newpage\begin{thebibliography}{0}%
 %	\bibitem{anddev}\label{bib: anddev}
 %	Official android documentation site. 
