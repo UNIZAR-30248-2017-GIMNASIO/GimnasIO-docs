@@ -476,164 +476,251 @@ Finalmente, las actividades se encargan de recoger todas estas funcionalidades y
 \section{Segundo Sprint}
 \subsection{Pila de Producto}
 \subsubsection{PBI: Completar actualizar ejercicios}
-Puntos de historia : 13
-Requisitos/Historias de usuario: El usuario debe ser capaz de descargar una lista de ejercicios sin errores de formato, de descarga o linguisticos, ya que son errores encontrados en el primer sprint y hay que corregirlos.
+Puntos de historia : 13
+
+Requisitos/Historias de usuario: El usuario debe ser capaz de descargar una lista de ejercicios sin errores de formato, de descarga o linguisticos, ya que son errores encontrados en el primer sprint y hay que corregirlos.
+
 Criterios de aceptación:
 \begin{itemize}
-	\item Se ha de actualizar y estudiar el código del servidor para proporcionar una descarga sin errores.
-	\item Se ha de comprobar la descarga correcta mediante la implementaión de tests automáticos.
+	\item Se ha de actualizar y estudiar el código del servidor para proporcionar una descarga sin errores.
+
+	\item Se ha de comprobar la descarga correcta mediante la implementaión de tests automáticos.
+
 \end{itemize}
 \subsubsection{PBI: Modificación de la creación de rutina}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Los ejercicios han de ser modificados para que puedan almacermar, individualmente, información que en implementaciones anteriores era perteneciente a la rutina global, es decir, cada ejercicio perteneciente a una rutina debe tener sus propios campos de repeticiones, series, y tiempo de descanso.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Los ejercicios han de ser modificados para que puedan almacermar, individualmente, información que en implementaciones anteriores era perteneciente a la rutina global, es decir, cada ejercicio perteneciente a una rutina debe tener sus propios campos de repeticiones, series, y tiempo de descanso.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item Se ha de actualizar la BD para que almacene objetos con estos campos.
-	\item Se han de actualizar los objetos en Java para que concuerden con los campos en la BD, y añadir los campos extra.
-	\item La GUI de la aplicación debe de ser actualizada para que el usuario pueda modificar estos tres campos.
-	\item Se han de actualizar los tests de BD para que comprueben los cambios realizados.
+	\item Se ha de actualizar la BD para que almacene objetos con estos campos.
+
+	\item Se han de actualizar los objetos en Java para que concuerden con los campos en la BD, y añadir los campos extra.
+
+	\item La GUI de la aplicación debe de ser actualizada para que el usuario pueda modificar estos tres campos.
+
+	\item Se han de actualizar los tests de BD para que comprueben los cambios realizados.
+
 \end{enumerate}
 \subsubsection{PBI: Modularización del código}
-Puntos de historia : 3
-Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Controlador-Vista (MCV).
+Puntos de historia : 3
+
+Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Controlador-Vista (MCV).
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item Se han separado cada uno de los distintos servicios disponibles en la aplicación en módulos y clases separados, por ejemplo, las funciones relacionadas con la interacción con la API, se han incluido en otro módulo.
-	\item Cada servicio posee una interfaz a través de cual se puede llamar al servicio desde cualquier punto del programa.
-	\item Se han organizado los módulos de código en distintas carpetas para poder facilitar la búsqueda de algún servicio en particular.
+	\item Se han separado cada uno de los distintos servicios disponibles en la aplicación en módulos y clases separados, por ejemplo, las funciones relacionadas con la interacción con la API, se han incluido en otro módulo.
+
+	\item Cada servicio posee una interfaz a través de cual se puede llamar al servicio desde cualquier punto del programa.
+
+	\item Se han organizado los módulos de código en distintas carpetas para poder facilitar la búsqueda de algún servicio en particular.
+
 \end{enumerate}
 \subsubsection{PBI: Búsqueda e implantación de herramienta de despliegue automático}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Se ha búscado e implementado satisfactoriamente una herramienta que permita automatizar el proceso de despliegue para reducir las equivocaciones y entregar software rápidamente.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Se ha búscado e implementado satisfactoriamente una herramienta que permita automatizar el proceso de despliegue para reducir las equivocaciones y entregar software rápidamente.
+
 Criterios de aceptación:
 \begin{enumerate}
 	\item Se ha logrado implementar una herramienta que automatice el despliegue automático.
 \end{enumerate}
 \subsubsection{PBI: Búsquedas}
-Puntos de historia : 8
-Requisitos/Historias de usuario: El usuario puede filtrar y hacer búsquedas en la lista de ejercicios y la lista de rutinas según unos parámetros definidos para cada objeto.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: El usuario puede filtrar y hacer búsquedas en la lista de ejercicios y la lista de rutinas según unos parámetros definidos para cada objeto.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item El usuario debe ser capaz de filtrar una lista de rutinas según dos campos: nombre y objetivo.
-	\item El usuario debe ser capaz de filtrar una lista de ejercicios según tres campos: nombre,músculo y tags.
-	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, si no que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
+	\item El usuario debe ser capaz de filtrar una lista de rutinas según dos campos: nombre y objetivo.
+
+	\item El usuario debe ser capaz de filtrar una lista de ejercicios según tres campos: nombre,músculo y tags.
+
+	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, si no que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
+
 \end{enumerate}
-\subsubsection{PBI: Ejecutar rutinas}
-Puntos de historia : 20
-Requisitos/Historias de usuario: El usuario puede ejecutar cualquier rutina que tenga a su dispoisción, esto es, la aplicación mantendrá un seguimiento de los ejercicios asociados a una rutina, controlando el tiempo de descanso de cada ejercicio, incluyendo un cronómetro global, e indicando el fin de los ejercicios.
+\subsubsection{PBI: Ejecutar rutinas}
+
+Puntos de historia : 20
+
+Requisitos/Historias de usuario: El usuario puede ejecutar cualquier rutina que tenga a su dispoisción, esto es, la aplicación mantendrá un seguimiento de los ejercicios asociados a una rutina, controlando el tiempo de descanso de cada ejercicio, incluyendo un cronómetro global, e indicando el fin de los ejercicios.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item Al final de la lista de ejercicios, debe haber una pantalla que indique el fin de la rutina.
-	\item El usuario debe ser capaz de para el cronómetro global.
-	\item El usuario debe ser capaz de cambiar de ejercicios cuando desee, deslizándo la pantalla a la derecha.
-	\item La aplicación incluye una pantalla principal indicando las instrucciones a seguir.
-	\item La aplicación debe incluir información sobre cada ejercicio, esto es, su nombre, el número de series y repeticiones, y unos pasos a seguir para su realización.
-	\item La aplicación incluye, tras cada pantalla de ejercicio, una pantalla que inicia una cuenta atrás contando el tiempo de descanso de cada ejercicio.
+	\item Al final de la lista de ejercicios, debe haber una pantalla que indique el fin de la rutina.
+
+	\item El usuario debe ser capaz de para el cronómetro global.
+
+	\item El usuario debe ser capaz de cambiar de ejercicios cuando desee, deslizándo la pantalla a la derecha.
+
+	\item La aplicación incluye una pantalla principal indicando las instrucciones a seguir.
+
+	\item La aplicación debe incluir información sobre cada ejercicio, esto es, su nombre, el número de series y repeticiones, y unos pasos a seguir para su realización.
+
+	\item La aplicación incluye, tras cada pantalla de ejercicio, una pantalla que inicia una cuenta atrás contando el tiempo de descanso de cada ejercicio.
+
 \end{enumerate}
 \subsubsection{PBI: Registro básico}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Los administradores de la aplicación deben ser capaces de registrar manualmente a usuarios en el servicio premium de la aplicación.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Los administradores de la aplicación deben ser capaces de registrar manualmente a usuarios en el servicio premium de la aplicación.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item Al dar de alta a un usuario en la BD del servidor, se deben crear claves únicas para cada usuario.
-	\item Se deben crear dos claves, una para usuario, y otra para trabajadores( entrenadores personales) de los gimnasios.
+	\item Al dar de alta a un usuario en la BD del servidor, se deben crear claves únicas para cada usuario.
+
+	\item Se deben crear dos claves, una para usuario, y otra para trabajadores( entrenadores personales) de los gimnasios.
+
 \end{enumerate}
 \subsubsection{PBI: Acceso premium}
-Puntos de historia : 3
-Requisitos/Historias de usuario: Los usuarios con claves de acceso al servicio premium deben de ser capaces de loguearse en él.
+Puntos de historia : 3
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso al servicio premium deben de ser capaces de loguearse en él.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe de tener una actividad dónde el usuario pueda introducir sus credenciales.
-	\item La aplicación debe conectarse con la API remota y mantener un envío correcto de información, sin errores.
-	\item La aplicación debe de permitir o denegar acceso al usuario según la respuesta del servidor.
+	\item La aplicación debe de tener una actividad dónde el usuario pueda introducir sus credenciales.
+
+	\item La aplicación debe conectarse con la API remota y mantener un envío correcto de información, sin errores.
+
+	\item La aplicación debe de permitir o denegar acceso al usuario según la respuesta del servidor.
+
 \end{enumerate}
 \subsubsection{PBI: Ver rutinas premium}
-Puntos de historia : 5
-Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver una lista con las rutinas asociadas al gimnasio.
+Puntos de historia : 5
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver una lista con las rutinas asociadas al gimnasio.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe de obtener las rutinas de cada gimnasio mediante una petición lanzada al servidor de la aplicación.
-	\item La aplicación debe presentar al usuario las rutinas de cada gimnasio.
+	\item La aplicación debe de obtener las rutinas de cada gimnasio mediante una petición lanzada al servidor de la aplicación.
+
+	\item La aplicación debe presentar al usuario las rutinas de cada gimnasio.
+
 	\item La aplicación debe informar al usuario si la comunicación con el servidor ha sido éxitosa o si ha habido algún problema.
-	\item Si el usuario selecciona una rutina de la lista, la aplicación le debe redirigir a una pantalla donde podrá ver la rutina en más detalle.
+	\item Si el usuario selecciona una rutina de la lista, la aplicación le debe redirigir a una pantalla donde podrá ver la rutina en más detalle.
+
 \end{enumerate}
 \subsubsection{PBI: Crear rutinas premium}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de crear rutinas premium asociadas a ese gimnasio.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de crear rutinas premium asociadas a ese gimnasio.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe permitir únicamente a los entrenadores crear rutinas premium.
-	\item El entrenador debe ser capaz de elegir los ejercicios deseados para su rutina.
-	\item El entrenador debe ser capaz de modificar los valores tiempo descanso, series y repeticiones de cada ejercicio.
-	\item La aplicación debe de subir y guardar las rutinas en el servidor mediante una petición al mismo.
+	\item La aplicación debe permitir únicamente a los entrenadores crear rutinas premium.
+
+	\item El entrenador debe ser capaz de elegir los ejercicios deseados para su rutina.
+
+	\item El entrenador debe ser capaz de modificar los valores tiempo descanso, series y repeticiones de cada ejercicio.
+
+	\item La aplicación debe de subir y guardar las rutinas en el servidor mediante una petición al mismo.
+
 \end{enumerate}
 \subsubsection{PBI: Ver rutina premium}
-Puntos de historia : 3
-Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver en detalle, la información sobre cada rutina.
+Puntos de historia : 3
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver en detalle, la información sobre cada rutina.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe incluir información detallada sobre la rutina: nombre, objetivo, nombre del gimnasio a quien pertenece, y la lista de ejercicios.
-\end{enumerate}
-\subsubsection{PBI: Modificar rutinas premium}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de modificar una rutina premium ya creada.
-Criterios de aceptación:
-\begin{enumerate}
-	\item El usuario debe ser capaz de modificar cualquier campo de información de la rutina.
-	\item Con respecto a la lista de ejercicios, el usuario debe ser capaz de modificar sus tres campos, cambiar su orden en la lista, modificar, eliminar o añadir ejercicios.
-	\item La aplicación debe actualizar cualquier modificación de una rutina en el servidor.
-	\item La aplicación debe informar al usuario si la conexión y modificación de la rutina en el servidor ha sido existosa o si ha habido algún error.
-	\item La aplicación debe permitir únicamente a los entrenadores modificar rutinas premium.
+	\item La aplicación debe incluir información detallada sobre la rutina: nombre, objetivo, nombre del gimnasio a quien pertenece, y la lista de ejercicios.
+
 \end{enumerate}
 \subsubsection{PBI: Modificar rutinas premium}
-Puntos de historia : 3
-Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de eliminar una rutina premium ya creada, eliminándola tanto de la base de datos local en el móvil, cómo de la base de datos remota en el servidor.
+
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de modificar una rutina premium ya creada.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe permitir únicamente a los entrenadores eliminar rutinas premium.
-	\item La aplicación debe borrar la rutina tanto en la base de datos local, como en la remota.
+	\item El usuario debe ser capaz de modificar cualquier campo de información de la rutina.
+
+	\item Con respecto a la lista de ejercicios, el usuario debe ser capaz de modificar sus tres campos, cambiar su orden en la lista, modificar, eliminar o añadir ejercicios.
+
+	\item La aplicación debe actualizar cualquier modificación de una rutina en el servidor.
+
+	\item La aplicación debe informar al usuario si la conexión y modificación de la rutina en el servidor ha sido existosa o si ha habido algún error.
+
+	\item La aplicación debe permitir únicamente a los entrenadores modificar rutinas premium.
+
+\end{enumerate}
+\subsubsection{PBI: Modificar rutinas premium}
+Puntos de historia : 3
+
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de eliminar una rutina premium ya creada, eliminándola tanto de la base de datos local en el móvil, cómo de la base de datos remota en el servidor.
+
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe permitir únicamente a los entrenadores eliminar rutinas premium.
+
+	\item La aplicación debe borrar la rutina tanto en la base de datos local, como en la remota.
+
 \end{enumerate}
 \subsubsection{PBI: Registro avanzado}
-Puntos de historia : 8
-Requisitos/Historias de usuario: Los usuarios que quieran ser parte del servicio premium, deben ser capaces de poder registrarse mediante un formulario web incluido en la página web de los desarrolladores.
+Puntos de historia : 8
+
+Requisitos/Historias de usuario: Los usuarios que quieran ser parte del servicio premium, deben ser capaces de poder registrarse mediante un formulario web incluido en la página web de los desarrolladores.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item Debe de haber una interfaz en la página web que permita el registro online.
-	\item Debe haber un formulario web que procese de manera automática los registros a servicio premium.
-	\item La página web debe enviar un correo al introducido por el usuario con las claves de usuario y de entrenador de gimnasio.
-	\item La página web debe generar claves únicas e intransferibles para cada usuario registrado.
+	\item Debe de haber una interfaz en la página web que permita el registro online.
+
+	\item Debe haber un formulario web que procese de manera automática los registros a servicio premium.
+
+	\item La página web debe enviar un correo al introducido por el usuario con las claves de usuario y de entrenador de gimnasio.
+
+	\item La página web debe generar claves únicas e intransferibles para cada usuario registrado.
+
 \end{enumerate}
-\subsubsection{PBI: Retroalimentación de la descarga} 
-Puntos de historia : 13
-Requisitos/Historias de usuario: El usuario ha de ser notificado en segundo plano, cuando ha iniciado una descarga, mediante una notificación de Android, sobre el estado de la misma.
+\subsubsection{PBI: Retroalimentación de la descarga} 
+
+Puntos de historia : 13
+
+Requisitos/Historias de usuario: El usuario ha de ser notificado en segundo plano, cuando ha iniciado una descarga, mediante una notificación de Android, sobre el estado de la misma.
+
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe de controlar el estado de la descarga, y el procentaje descargado del total.
-	\item La aplicación debe enviar notificaciones sobre la totalidad de la descarga en la barra de acción de Android.
+	\item La aplicación debe de controlar el estado de la descarga, y el procentaje descargado del total.
+
+	\item La aplicación debe enviar notificaciones sobre la totalidad de la descarga en la barra de acción de Android.
+
 	\item El usuario puede minimizar la aplicación durante una descarga y la aplicación continuar la descarga en un segundo plano.
 \end{enumerate}
 
 \subsection{Arquitectura}
 \subsubsection{Servidor}
-Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
-En este segundo sprint se ha desarrollado una aplicación web implementada sobre la misma arquitectura, por lo que se ha pasado de un Modelo-Controlador donde la vista era la aplicación Android a un Modelo-Vista-Controlador completo, donde la vista es tanto la aplicación Android como la página web, siendo que los contenidos accesibles son distintos en cada una de ellas.
+Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
+
+En este segundo sprint se ha desarrollado una aplicación web implementada sobre la misma arquitectura, por lo que se ha pasado de un Modelo-Controlador donde la vista era la aplicación Android a un Modelo-Vista-Controlador completo, donde la vista es tanto la aplicación Android como la página web, siendo que los contenidos accesibles son distintos en cada una de ellas.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{graficos/CyCserver.png}
 	\caption{Diagrama CyC del servidor }
 	\label{fig: CyCServ2}
 \end{figure}
-Se mantiene la API Rest como método de comunicación del servidor con el exterior. En la parte de Cliente, la aplicación Android accede a la API Rest de forma nativa con librerías Java, mientras que para la web, se ha utilizado Javascript (jQuery) y Ajax para realizar las peticiones y controlar los contenidos de las páginas estáticas.
+Se mantiene la API Rest como método de comunicación del servidor con el exterior. En la parte de Cliente, la aplicación Android accede a la API Rest de forma nativa con librerías Java, mientras que para la web, se ha utilizado Javascript (jQuery) y Ajax para realizar las peticiones y controlar los contenidos de las páginas estáticas.
+
 
 Además, se han realizado algunas modificaciones y añadido funcionalidades a la API existente. Estas son:
 \begin{itemize}
-	\item Pedir rutinas: Modificada para no devolver repeticiones, series y tiempo de descanso para cada rutina, sino que esa información esté contenida en cada ejercicio.
-	\item Actualizar rutina: Nueva entrada para permitir modificar repeticiones, series y tiempo de descanso para cada ejercicio.
-	\item Nueva rutina: Nueva entrada para permitir establecer repeticiones, series y tiempo de descanso para cada ejercicio.
-	\item Borrar rutina: Nueva entrada utilizada para borrar rutinas en el servidor.
-	\item Nuevo gimnasio: Modificada para enviar las claves por email en vez de en la respuesta.
-	\item Login gimnasio: Nueva entrada utilizada para comprobar las credenciales de entrada a la parte premium. Devuelve si son correctos o no, y en caso afirmativo, el tipo de usuario.
-	\item Pedir ejercicios: Modificada para permitir devolver repeticiones, series y tiempo de descanso para cada ejercicio.
+	\item Pedir rutinas: Modificada para no devolver repeticiones, series y tiempo de descanso para cada rutina, sino que esa información esté contenida en cada ejercicio.
+
+	\item Actualizar rutina: Nueva entrada para permitir modificar repeticiones, series y tiempo de descanso para cada ejercicio.
+
+	\item Nueva rutina: Nueva entrada para permitir establecer repeticiones, series y tiempo de descanso para cada ejercicio.
+
+	\item Borrar rutina: Nueva entrada utilizada para borrar rutinas en el servidor.
+
+	\item Nuevo gimnasio: Modificada para enviar las claves por email en vez de en la respuesta.
+
+	\item Login gimnasio: Nueva entrada utilizada para comprobar las credenciales de entrada a la parte premium. Devuelve si son correctos o no, y en caso afirmativo, el tipo de usuario.
+
+	\item Pedir ejercicios: Modificada para permitir devolver repeticiones, series y tiempo de descanso para cada ejercicio.
+
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -666,14 +753,16 @@ Además, se han realizado algunas modificaciones y añadido funcionalidades a la
 	\label{cod:apiGym}
 \end{figure}
 \subsubsection{Aplicación móvil}
-Se mantiene una vez más el esqueleto de la arquitectura del primer sprint. Sin embargo, en este sprint se han realizado esfuerzos para modularizar el código y permitir una mayor reusabilidad de métodos y objetos. 
+Se mantiene una vez más el esqueleto de la arquitectura del primer sprint. Sin embargo, en este sprint se han realizado esfuerzos para modularizar el código y permitir una mayor reusabilidad de métodos y objetos. 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{graficos/CyCApp.png}
 	\caption{Diagrama CyC de la aplicación }
 	\label{fig: CyCApp2}
 \end{figure}
-Se pueden observar dos nuevos componentes \textit{Services} y \textit{Database}, uno completamente nuevo y el otro toma el lugar de \verb|GymnasioDBAdapter|. Ambos son fruto de dicho proceso de modularización del código. Database contiene todos los objetos y métodos que interactúan con la base de datos SQLite. Por otro lado, Services representa los métodos encargados de interactuar con APIs externas, que en este caso es el servidor de GimnasIO.
+Se pueden observar dos nuevos componentes \textit{Services} y \textit{Database}, uno completamente nuevo y el otro toma el lugar de \verb|GymnasioDBAdapter|. Ambos son fruto de dicho proceso de modularización del código. Database contiene todos los objetos y métodos que interactúan con la base de datos SQLite. Por otro lado, Services representa los métodos encargados de interactuar con APIs externas, que en este caso es el servidor de GimnasIO.
+
 \chapter{Proceso}
 \section{Primer Sprint}
 \subsection{Estrategia y herramientas en test y cobertura de código}
@@ -792,79 +881,128 @@ En este primer sprint este workflow ha sido ligeramente deficiente en la prácti
 De cara al segundo sprint se pretende realizar un énfasis en esta implementación. Los miembros del equipo serán recordados al menos una vez a la semana de mantener actualizadas sus tareas en el tablero, y, a su vez, se les exigirá una mayor atención hacia el tablero.
 \section{Segundo Sprint}
 \subsection{Estrategia y herramientas en test y cobertura de código}
-En este segundo sprint se ha seguido con la misma dinámica de tests que se llevó en el primer sprint. Por ello, se han creado los tests unitarios correspondientes a las entradas de pila realizadas en el segundo sprint. Además, se han añadido tests de aceptación automatizados para testear la GUI, los cuales no pudieron hacerse durante el primer sprint ya que en ese momento la GUI estaba lejos de ser la definitiva. La API web también ha sido completada con algunos tests para cubrir las funcionalidades implementadas en este segundo sprint.
+En este segundo sprint se ha seguido con la misma dinámica de tests que se llevó en el primer sprint. Por ello, se han creado los tests unitarios correspondientes a las entradas de pila realizadas en el segundo sprint. Además, se han añadido tests de aceptación automatizados para testear la GUI, los cuales no pudieron hacerse durante el primer sprint ya que en ese momento la GUI estaba lejos de ser la definitiva. La API web también ha sido completada con algunos tests para cubrir las funcionalidades implementadas en este segundo sprint.
 
-\subsubsection{Test unitarios de la base de datos}
-Tras este segundo sprint, la colección de tests unitarios para la interacción con la base de datos local contiene los siguientes tests:
+
+\subsubsection{Test unitarios de la base de datos}
+
+Tras este segundo sprint, la colección de tests unitarios para la interacción con la base de datos local contiene los siguientes tests:
+
 \paragraph{Tests sobre ejercicios:}
 \begin{itemize}
-	\item \textit{addExerciseTest()}: comprueba que se añaden correctamente ejercicios a la base de datos.
-	\item \textit{addExerciseTestRepeated()}: comprueba que no se añade un ejercicio a la base de datos si este ya se encuentra en la misma.
-	\item \textit{deleteExerciseTest()}: comprueba que la base de datos borra correctamente un ejercicio contenido en ella.
-	\item \textit{dontDeleteExerciseTest()}: comprueba que la base de datos se comporta correctamente cuando se intenta eliminar un ejercicio no contenido en ella.
-	\item \textit{checkExerciseByName()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “nombre” son o contienen el nombre buscado.
-	\item \textit{checkExerciseByNameFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “nombre” que sea o contenga el nombre buscado.
-	\item \textit{checkExerciseByMuscle()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “músculo” son o contienen el músculo buscado.
-	\item \textit{checkExerciseByMuscleFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “músculo” que sea o contenga el músculo buscado.
-	\item \textit{checkExerciseByTag()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “tag” son o contienen el tag buscado.
-	\item \textit{checkExerciseByTagFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “tag” que sea o contenga el tag buscado.
+	\item \textit{addExerciseTest()}: comprueba que se añaden correctamente ejercicios a la base de datos.
+
+	\item \textit{addExerciseTestRepeated()}: comprueba que no se añade un ejercicio a la base de datos si este ya se encuentra en la misma.
+
+	\item \textit{deleteExerciseTest()}: comprueba que la base de datos borra correctamente un ejercicio contenido en ella.
+
+	\item \textit{dontDeleteExerciseTest()}: comprueba que la base de datos se comporta correctamente cuando se intenta eliminar un ejercicio no contenido en ella.
+
+	\item \textit{checkExerciseByName()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “nombre” son o contienen el nombre buscado.
+
+	\item \textit{checkExerciseByNameFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “nombre” que sea o contenga el nombre buscado.
+
+	\item \textit{checkExerciseByMuscle()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “músculo” son o contienen el músculo buscado.
+
+	\item \textit{checkExerciseByMuscleFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “músculo” que sea o contenga el músculo buscado.
+
+	\item \textit{checkExerciseByTag()}: comprueba que la base de datos devuelve correctamente la información de todos los ejercicios contenidos en ella cuyos campos “tag” son o contienen el tag buscado.
+
+	\item \textit{checkExerciseByTagFalse()}: comprueba que la base de datos no devuelve nada cuando ningún ejercicio contenido en ella tiene un campo “tag” que sea o contenga el tag buscado.
+
 \end{itemize}
 \paragraph{Tests sobre rutinas:}
 \begin{itemize}
-	\item \textit{addFreemiumRoutineTest()}: comprueba que se inserta correctamente una rutina de tipo “freemium” en la base de datos.
-	\item \textit{addPremiumRoutineTest()}: comprueba que se inserta correctamente una rutina de tipo “premium” en la base de datos.
-	\item \textit{getFreemiumRoutineTest()}: comprueba que la base de datos devuelve correctamente la información de una rutina almacenada en ella al buscarla por su “id”.
-	\item \textit{deleteRoutineTest\_existe()}: comprueba que la base de datos elimina correctamente una rutina almacenada en ella al introducir su “id”.
-	\item \textit{deleteRoutineTest\_cero()}: comprueba que la base de datos se comporta correctamente (ni elimina ni falla) cuando se intenta eliminar una rutina con “id” cero.
-	\item \textit{deleteRoutineTest\_negativo()}: comprueba que la base de datos se comporta correctamente (ni elimina ni falla) cuando se intenta eliminar una rutina con “id” negativo.
-	\item \textit{updateNameRoutineFreemium()}: comprueba que el valor del campo “nombre” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
-	\item \textit{updateNameGymRoutineFreemium()}: comprueba que el valor del campo “gym” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
-	\item \textit{updateObjRoutineFreemium()}: comprueba que el valor del campo “objetivo” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
-	\item \textit{updateExsRoutineFreemium()}: comprueba que los ejercicios asignados a una rutina freemium se actualizan correctamente en la base de datos cuando son modificados.
-	\item \textit{fetchAllPremiumRoutinesTest()}: comprueba que la base de datos devuelve correctamente todas las rutinas premium almacenadas en la base de datos local.
-	\item \textit{getNumberOfRoutinesTest()}: comprueba que la función de la base de datos que devuelve el número total de rutinas almacenadas devuelve el número correcto.
-	\item \textit{getRoutineByNameTest()}: comprueba que la base de datos devuelve correctamente la información de las rutinas almacenadas en ella cuyos campos “nombre” sean o coincidan con el nombre buscado.
-	\item \textit{dontGetRoutineByNameTest()}: comprueba que la base de datos no devuelve nada cuando ninguna rutina almacenada en ella tiene un campo “nombre” que sea o contenga el nombre buscado.
-	\item \textit{getRoutineByObjectiveTest()}: comprueba que la base de datos devuelve correctamente la información de las rutinas almacenadas en ella cuyos campos “objetivo” sean o coincidan con el objetivo buscado.
-	\item \textit{dontGetRoutineByObjectiveTest()}: comprueba que la base de datos no devuelve nada cuando ninguna rutina almacenada en ella tiene un campo “objetivo” que sea o contenga el objetivo buscado.
+	\item \textit{addFreemiumRoutineTest()}: comprueba que se inserta correctamente una rutina de tipo “freemium” en la base de datos.
+
+	\item \textit{addPremiumRoutineTest()}: comprueba que se inserta correctamente una rutina de tipo “premium” en la base de datos.
+
+	\item \textit{getFreemiumRoutineTest()}: comprueba que la base de datos devuelve correctamente la información de una rutina almacenada en ella al buscarla por su “id”.
+
+	\item \textit{deleteRoutineTest\_existe()}: comprueba que la base de datos elimina correctamente una rutina almacenada en ella al introducir su “id”.
+
+	\item \textit{deleteRoutineTest\_cero()}: comprueba que la base de datos se comporta correctamente (ni elimina ni falla) cuando se intenta eliminar una rutina con “id” cero.
+
+	\item \textit{deleteRoutineTest\_negativo()}: comprueba que la base de datos se comporta correctamente (ni elimina ni falla) cuando se intenta eliminar una rutina con “id” negativo.
+
+	\item \textit{updateNameRoutineFreemium()}: comprueba que el valor del campo “nombre” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
+
+	\item \textit{updateNameGymRoutineFreemium()}: comprueba que el valor del campo “gym” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
+
+	\item \textit{updateObjRoutineFreemium()}: comprueba que el valor del campo “objetivo” de una rutina freemium se actualiza correctamente en la base de datos cuando es modificado.
+
+	\item \textit{updateExsRoutineFreemium()}: comprueba que los ejercicios asignados a una rutina freemium se actualizan correctamente en la base de datos cuando son modificados.
+
+	\item \textit{fetchAllPremiumRoutinesTest()}: comprueba que la base de datos devuelve correctamente todas las rutinas premium almacenadas en la base de datos local.
+
+	\item \textit{getNumberOfRoutinesTest()}: comprueba que la función de la base de datos que devuelve el número total de rutinas almacenadas devuelve el número correcto.
+
+	\item \textit{getRoutineByNameTest()}: comprueba que la base de datos devuelve correctamente la información de las rutinas almacenadas en ella cuyos campos “nombre” sean o coincidan con el nombre buscado.
+
+	\item \textit{dontGetRoutineByNameTest()}: comprueba que la base de datos no devuelve nada cuando ninguna rutina almacenada en ella tiene un campo “nombre” que sea o contenga el nombre buscado.
+
+	\item \textit{getRoutineByObjectiveTest()}: comprueba que la base de datos devuelve correctamente la información de las rutinas almacenadas en ella cuyos campos “objetivo” sean o coincidan con el objetivo buscado.
+
+	\item \textit{dontGetRoutineByObjectiveTest()}: comprueba que la base de datos no devuelve nada cuando ninguna rutina almacenada en ella tiene un campo “objetivo” que sea o contenga el objetivo buscado.
+
 \end{itemize}
 
-\subsubsection{Test de llamadas a la api remota}
-En este segundo sprint, tras implementar la parte premium de la aplicación se han diseñado una serie de test de interacción con el servidor remoto para comprobar el correcto funcionamiento de las llamadas a la API. Los tests implementados han sido los siguientes:
+\subsubsection{Test de llamadas a la api remota}
+
+En este segundo sprint, tras implementar la parte premium de la aplicación se han diseñado una serie de test de interacción con el servidor remoto para comprobar el correcto funcionamiento de las llamadas a la API. Los tests implementados han sido los siguientes:
+
 \begin{itemize}
-	\item \textit{loginPremium\_Test()}: comprueba que la petición de login al servidor remoto funciona correctamente.
-	\item \textit{dbData\_Test()}: comprueba que la petición para obtener la información de la base de datos remota (tamaño del contenido de los ejercicios para descargar) funciona correctamente.
-	\item \textit{updateDb\_Test()}: comprueba que la petición para actualizar la base de datos local con los ejercicios contenidos de la base de datos remota funciona correctamente.
-	\item \textit{updatePremiumDb\_Test()}: comprueba que la petición para descargar las rutinas premium de un gimnasio almacenadas en la base de datos remota funciona correctamente.
-	\item \textit{downloadImg\_Test()}: comprueba que la peticion para descargar la imagen asociada a un ejercicio almacenado en la base de datos remota funciona correctamente.
-	\item \textit{createPremiumRoutine\_Test()}: comprueba que las peticiones para crear, modificar y eliminar rutinas premium en la base de datos remota funciona correctamente.
+	\item \textit{loginPremium\_Test()}: comprueba que la petición de login al servidor remoto funciona correctamente.
+
+	\item \textit{dbData\_Test()}: comprueba que la petición para obtener la información de la base de datos remota (tamaño del contenido de los ejercicios para descargar) funciona correctamente.
+
+	\item \textit{updateDb\_Test()}: comprueba que la petición para actualizar la base de datos local con los ejercicios contenidos de la base de datos remota funciona correctamente.
+
+	\item \textit{updatePremiumDb\_Test()}: comprueba que la petición para descargar las rutinas premium de un gimnasio almacenadas en la base de datos remota funciona correctamente.
+
+	\item \textit{downloadImg\_Test()}: comprueba que la peticion para descargar la imagen asociada a un ejercicio almacenado en la base de datos remota funciona correctamente.
+
+	\item \textit{createPremiumRoutine\_Test()}: comprueba que las peticiones para crear, modificar y eliminar rutinas premium en la base de datos remota funciona correctamente.
+
 \end{itemize}
 \subsubsection{Test de aceptación automáticos}
-En este sprint se han añadido una serie de test de aceptación automáticos para comprobar que todas las funcionalidades de la aplicación funcionan correctamente al usar la aplicación. Para ello se ha testeado la GUI de la aplicación con la herramienta de automatización Espresso. Los tests creados han sido los siguientes:
+En este sprint se han añadido una serie de test de aceptación automáticos para comprobar que todas las funcionalidades de la aplicación funcionan correctamente al usar la aplicación. Para ello se ha testeado la GUI de la aplicación con la herramienta de automatización Espresso. Los tests creados han sido los siguientes:
+
 \begin{itemize}
-	\item \textit{testVerEjercicios()}: comprueba que la pantalla de ver ejercicios es alcanzable desde la interfaz de la aplicación.
-	\item \textit{testVerEjercicio()}: comprueba que la pantalla de ver la información de un ejercicio es alcanzable desde la interfaz de la aplicación.
-	\item \textit{testVerRutinas()}: comprueba que la pantalla de ver la lista de rutinas freemium es alcanzable desde la interfaz de la aplicación.
-	\item \textit{testCrearModificarEliminarRutinaFreemium()}: comprueba que es posible crear, modificar y eliminar una rutina freemium desde la interfaz de la aplicación.
-	\item \textit{testLoginPremiumAsNormalUserAndLogout()}: comprueba que el inicio de sesión como usuario premium normal, así como el cerrado de la sesión abierta, funcionan correctamente desde la interfaz de la aplicación.
-	\item \textit{testLoginPremiumAsTrainerUserAndLogout()}: comprueba que el inicio de sesión como usuario premium entrenador, así como el cerrado de la sesión abierta, funcionan correctamente desde la interfaz de la aplicación.
-	\item \textit{testCrearModificarEliminarRutinaPremium()}: comprueba que es posible crear, modificar y eliminar una rutina premium desde la interfaz de la aplicación.
-	\item \textit{testModificarEjerciciosDentroDeRutina()}: comprueba que es posible modificar los atributos de un ejercicio añadido a una rutina desde la interfaz de la aplicación.
+	\item \textit{testVerEjercicios()}: comprueba que la pantalla de ver ejercicios es alcanzable desde la interfaz de la aplicación.
+
+	\item \textit{testVerEjercicio()}: comprueba que la pantalla de ver la información de un ejercicio es alcanzable desde la interfaz de la aplicación.
+
+	\item \textit{testVerRutinas()}: comprueba que la pantalla de ver la lista de rutinas freemium es alcanzable desde la interfaz de la aplicación.
+
+	\item \textit{testCrearModificarEliminarRutinaFreemium()}: comprueba que es posible crear, modificar y eliminar una rutina freemium desde la interfaz de la aplicación.
+
+	\item \textit{testLoginPremiumAsNormalUserAndLogout()}: comprueba que el inicio de sesión como usuario premium normal, así como el cerrado de la sesión abierta, funcionan correctamente desde la interfaz de la aplicación.
+
+	\item \textit{testLoginPremiumAsTrainerUserAndLogout()}: comprueba que el inicio de sesión como usuario premium entrenador, así como el cerrado de la sesión abierta, funcionan correctamente desde la interfaz de la aplicación.
+
+	\item \textit{testCrearModificarEliminarRutinaPremium()}: comprueba que es posible crear, modificar y eliminar una rutina premium desde la interfaz de la aplicación.
+
+	\item \textit{testModificarEjerciciosDentroDeRutina()}: comprueba que es posible modificar los atributos de un ejercicio añadido a una rutina desde la interfaz de la aplicación.
+
 	\item \textit{testMoverEjerciciosDentroDeRutina()}: comprueba que es posible modificar la posición que tiene  un ejercicio añadido a una rutina dentro de la misma desde la interfaz de la aplicación.
 \end{itemize}
 \subsection{Estrategia para la construcción automática de software}
-Se mantiene la configuración del servidor que construye, realiza las pruebas e informa del coverage del anterior sprint.
+Se mantiene la configuración del servidor que construye, realiza las pruebas e informa del coverage del anterior sprint.
+
 Una de las tareas de este segundo sprint era la de buscar una herramienta alternativa a Travis que permitiese ejecutar las pruebas en Android. Tras una ardua investigación y horas de infructuoso trabajo, se decide que ninguna alternativa cumple nuestras expectativas, y, por tanto, se decide volver a Travis y abandonar la idea de probar los test de integración automáticamente. En su lugar se realiza únicamente la construcción del proyecto. Sin embargo, en el afán de realizar algo más allá de la construcción, se implementa en Travis que se genere una reléase en Github por cada versión pusheada. Esta implementación se realiza en uno de los repositorios personales (@dari1495 \url{https://github.com/dari1495/GimnasIO-app/releases} ]) .
 \subsection{Definición de hecho}
 \subsection{Estrategia de control de versiones}
-Se mantiene la división en dos repositorios del primer sprint, uno para la aplicación Android y otro para el servidor web. 
+Se mantiene la división en dos repositorios del primer sprint, uno para la aplicación Android y otro para el servidor web. 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{graficos/repos.png}
 	\caption{Repositorios del proyecto.}
 	\label{fig: repos}
 \end{figure}
-La única novedad de este sprint es la creación de un nuevo repositorio únicamente para documentación llamado GimnasIO-docs. En este repositorio se somete a control de versiones la documentación del sistema. Este repositorio no se somete a un control tan exhaustivo de versiones, permitiendo a los miembros del equipo pushear contenido sin revisión previa.
+La única novedad de este sprint es la creación de un nuevo repositorio únicamente para documentación llamado GimnasIO-docs. En este repositorio se somete a control de versiones la documentación del sistema. Este repositorio no se somete a un control tan exhaustivo de versiones, permitiendo a los miembros del equipo pushear contenido sin revisión previa.
+
 \subsection{Esfuerzos por persona}
 \begin{figure}[H]
 	\centering
@@ -872,17 +1010,27 @@ La única novedad de este sprint es la creación de un nuevo repositorio únicam
 	\caption{Repositorios del proyecto.}
 	\label{fig: repos}
 \end{figure}
-Se puede observar un reparto más o menos parecido de los esfuerzos por persona, cumpliendo el mínimo aproximado de 90h de esfuerzo en la asignatura. Lo más destacable es, probablemente, que haya una menor cantidad de horas trabajadas este segundo sprint pese a haber realizado más puntos de historia. Esto puede ser debido a la experiencia ganada en el primer sprint en cuanto a las tecnologías utilizadas y el trabajo en equipo.
+Se puede observar un reparto más o menos parecido de los esfuerzos por persona, cumpliendo el mínimo aproximado de 90h de esfuerzo en la asignatura. Lo más destacable es, probablemente, que haya una menor cantidad de horas trabajadas este segundo sprint pese a haber realizado más puntos de historia. Esto puede ser debido a la experiencia ganada en el primer sprint en cuanto a las tecnologías utilizadas y el trabajo en equipo.
+
 \subsection{Velocidad del equipo}
-Este segundo sprint se prestó más atención a la metodología de trabajo, especialmente a uno de los mayores problemas del primer sprint que fue la acumulación de WIP (Work In Progress). La velocidad del equipo en este Sprint ha sido de 119 P.H.
+Este segundo sprint se prestó más atención a la metodología de trabajo, especialmente a uno de los mayores problemas del primer sprint que fue la acumulación de WIP (Work In Progress). La velocidad del equipo en este Sprint ha sido de 119 P.H.
+
 Siguiendo el diagrama de burnup, el comienzo del sprint sigue sin aparentar mejoría, pero realmente es debido a la existencia de entradas de la pila “bloqueantes” que impedían cerrar otras entradas hasta que las primeras no fueran terminadas. Se observa una clara mejoría una vez superados los “baches” de las entradas bloqueantes.
- \begin{figure}[H]
- 	\centering
- 	\includegraphics[width=1\textwidth]{graficos/burnup.png}
- 	\caption{Diagrama de Burnup.}
- 	\label{fig: burnup2}
- \end{figure}
-La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde se utilizan las horas de coste para cada tarea cerrada como métrica en lugar de puntos de historia. Se observa que, salvo al principio del sprint, se trabaja siempre por debajo del ritmo normal, con lo que se demuestra el ritmo constante de trabajo que no se refleja en el diagrama de burnup.
+ 
+\begin{figure}[H]
+ 
+	\centering
+ 
+	\includegraphics[width=1\textwidth]{graficos/burnup.png}
+ 
+	\caption{Diagrama de Burnup.}
+ 
+	\label{fig: burnup2}
+ 
+\end{figure}
+
+La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde se utilizan las horas de coste para cada tarea cerrada como métrica en lugar de puntos de historia. Se observa que, salvo al principio del sprint, se trabaja siempre por debajo del ritmo normal, con lo que se demuestra el ritmo constante de trabajo que no se refleja en el diagrama de burnup.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{graficos/burndown.png}
@@ -912,33 +1060,52 @@ Además, se han realizado algunas de las tareas del sobresaliente:
 Se espera obtener un grado de sobresaliente en este segundo sprint. Para ello se han cumplido los requisitos establecidos en la presentación de Evaluación del proyecto. Estas son:
 \begin{itemize}
 	\item 	\textbf{El código del proyecto se aloja en Github y se trabaja de forma habitual contra él.} El equipo ha trabajado continuamente contra tres repositorios de Github.
-	\item \textbf{El software funciona correctamente e implementa suficiente funcionalidad.} La aplicación contiene todas las funcionalidades acordadas e incluso se dispone de una aplicación Web para las funcionalidades externas a ella.
-	\item \textbf{Informe de proyecto suficiente y adecuado.} En este documento se encuentran todas las secciones demandadas, así como la documentación de diseño e implementación del sistema y el manual de usuario.
-	\item \textbf{Cobertura de test automáticos de al menos 50\% del código.} El servidor tiene una cobertura de 81\% de código \url{https://codecov.io/gh/UNIZAR-30248-2017-GIMNASIO/GimnasIO-server}. La cobertura en Android, debido al tipo de test utilizado, ha resultado imposible de obtener. Sin embargo, como se testearon todas las funcionalidades, es seguro decir que el 50\% de cobertura es perfectamente alcanzable.
-	\item \textbf{Definición de hecho clara.} La definición de hecho revisada y corregida de este segundo sprint se considera suficiente para satisfacer este requisito.
-	\item \textbf{Compilación y gestión de dependencias.} A nivel de servidor, se ha utilizado npm. A nivel de aplicación, se ha utilizado Gradle.
-	\item \textbf{Toda la documentación está bajo control de versiones. }Toda la documentación se encuentra tanto en Dropbox como en un repositorio de Github creado específicamente a tal efecto llamado gimnasio-docs.
-	\item \textbf{Todas las historias de usuario tienen buenos criterios de aceptación.} Los expuestos en este documento se consideran suficientemente buenos para ello.
-	\item \textbf{Se lleva un control de esfuerzos con horas dedicadas por persona a cada tarea.} Se han realizado todas las entregas de la hoja de esfuerzos con el desglose por persona de las horas dedicadas y a que tareas.
-	\item \textbf{La construcción se ha automatizado mas allá de la compilación y gestión de dependencias.} En la parte del servidor, con la implementación de Travis y Codecov se genera de forma automática un reporte de la cobertura de código. En el lado de Android, se genera de forma automática una reléase de Github a través también de Travis.
+	\item \textbf{El software funciona correctamente e implementa suficiente funcionalidad.} La aplicación contiene todas las funcionalidades acordadas e incluso se dispone de una aplicación Web para las funcionalidades externas a ella.
+
+	\item \textbf{Informe de proyecto suficiente y adecuado.} En este documento se encuentran todas las secciones demandadas, así como la documentación de diseño e implementación del sistema y el manual de usuario.
+
+	\item \textbf{Cobertura de test automáticos de al menos 50\% del código.} El servidor tiene una cobertura de 81\% de código \url{https://codecov.io/gh/UNIZAR-30248-2017-GIMNASIO/GimnasIO-server}. La cobertura en Android, debido al tipo de test utilizado, ha resultado imposible de obtener. Sin embargo, como se testearon todas las funcionalidades, es seguro decir que el 50\% de cobertura es perfectamente alcanzable.
+
+	\item \textbf{Definición de hecho clara.} La definición de hecho revisada y corregida de este segundo sprint se considera suficiente para satisfacer este requisito.
+
+	\item \textbf{Compilación y gestión de dependencias.} A nivel de servidor, se ha utilizado npm. A nivel de aplicación, se ha utilizado Gradle.
+
+	\item \textbf{Toda la documentación está bajo control de versiones. }Toda la documentación se encuentra tanto en Dropbox como en un repositorio de Github creado específicamente a tal efecto llamado gimnasio-docs.
+
+	\item \textbf{Todas las historias de usuario tienen buenos criterios de aceptación.} Los expuestos en este documento se consideran suficientemente buenos para ello.
+
+	\item \textbf{Se lleva un control de esfuerzos con horas dedicadas por persona a cada tarea.} Se han realizado todas las entregas de la hoja de esfuerzos con el desglose por persona de las horas dedicadas y a que tareas.
+
+	\item \textbf{La construcción se ha automatizado mas allá de la compilación y gestión de dependencias.} En la parte del servidor, con la implementación de Travis y Codecov se genera de forma automática un reporte de la cobertura de código. En el lado de Android, se genera de forma automática una reléase de Github a través también de Travis.
+
 \end{itemize}
 \chapter{ANEXO I: MANUAL DE USUARIO}
 \section{Información general}
-GimnasIO es una aplicación para Android diseñada y desarrollada por cuatro alumnos de la Universidad de Zaragoza. La aplicación se ha creado para ayudar a usuarios de gimnasios a poder organizar sus rutinas; la aplicación les ofrece una lista de ejercicios, y les permite crear rutinas en local, seleccionado los ejercicios, las repeticiones, series y tiempo de descanso de cada ejercicio. La aplicación le da la opción al usuario de ejecutar la rutina, es decir, que automática prepara un contador de tiempo para que el usuario pueda navegar entre los diversos ejercicios de la rutina y pueda controlar el tiempo de descanso, o el tiempo que tarda en hacer sus ejercicios.
-Además, también se ha incluido una versión de pago, en la que los diversos gimnasios pueden ofrecer unas rutinas personalizadas para los usuarios de ese gimnasio en específico, y en la que los entrenadores de cada gimnasio pueden modificar y subir rutinas que serán visibles únicamente para los usuarios de ese gimnasio.
+GimnasIO es una aplicación para Android diseñada y desarrollada por cuatro alumnos de la Universidad de Zaragoza. La aplicación se ha creado para ayudar a usuarios de gimnasios a poder organizar sus rutinas; la aplicación les ofrece una lista de ejercicios, y les permite crear rutinas en local, seleccionado los ejercicios, las repeticiones, series y tiempo de descanso de cada ejercicio. La aplicación le da la opción al usuario de ejecutar la rutina, es decir, que automáticamente prepara un contador de tiempo para que el usuario pueda navegar entre los diversos ejercicios de la rutina y pueda controlar el tiempo de descanso, o el tiempo que tarda en hacer sus ejercicios.
+
+Además, también se ha incluido una versión de pago, en la que los diversos gimnasios pueden ofrecer unas rutinas personalizadas para los usuarios de ese gimnasio en específico, y en la que los entrenadores de cada gimnasio pueden modificar y subir rutinas que serán visibles únicamente para los usuarios de ese gimnasio.
+
 \section{Resumen del sistema}
-En esta sección se va a ofrecer una visión general del sistema, específicando los requerimientos del   software y el hardware o la configuración del usuario.
+En esta sección se va a ofrecer una visión general del sistema, especificando los requerimientos del   software y el hardware o la configuración del usuario.
+
 \subsection{Configuración del sistema}
-La aplicación funciona en dispositivos con sistema operativo Android, con API mínima 26.
-La aplicación requiere de conexión a internet para la descarga de ejercicios, y para la interacción con el sistema premium, almacenado en un servidor en AWS.(Asier, algun otro tipo de información relevante a la máquina en el servidor?)
-La aplicación también requiere de permisos de acceso y modificación del sistema de ficheros y archivos del usuario,debido a la descarga de imágenes junto a los ejercicios.
+La aplicación funciona en dispositivos con sistema operativo Android, con API mínima 26.
+
+La aplicación requiere de conexión a Internet para la descarga de ejercicios, y para la interacción con el sistema premium, almacenado en un servidor en AWS.
+
+La aplicación también requiere de permisos de acceso y modificación del sistema de ficheros y archivos del usuario, debido a la descarga de imágenes junto a los ejercicios.
+
 \subsection{Niveles de acceso del usuario}
-Una vez la aplicación haya sido descargada el usuario puede ejecutarla sin requerimiento de control de acceso en local, pero es necesario un login si el usuario quiere acceder al servicio premium. 
-Hay dos tipos de acceso, de usuario de gimnasio, en el que sólo puede ver y ejecitar las rutinas, o de coach de gimnasio, en el que el usuario puede, además de ver y ejecutar, modificar o eliminar.
+Una vez la aplicación haya sido descargada el usuario puede ejecutarla sin requerimiento de control de acceso en local, pero es necesario un login si el usuario quiere acceder al servicio premium. 
+
+Hay dos tipos de acceso, de usuario de gimnasio, en el que sólo puede ver y ejecutar las rutinas, o de coach de gimnasio, en el que el usuario puede, además de ver y ejecutar, modificar o eliminar.
+
 \section{Cómo empezar a usar el sistema}
-En esta sección se detalla como descargar GimnasIO y cómo usarlo en el dispositivo, además de explicar cómo funciona la interacción con el usuario.
+En esta sección se detalla como descargar GimnasIO y cómo usarlo en el dispositivo, además de explicar cómo funciona la interacción con el usuario.
+
 \subsection{Descarga e instalación}
-La última versión de la aplicación se puede descargar en la página oficial de GimnasIO, en el enlace 
+La última versión de la aplicación se puede descargar en la página oficial de GimnasIO, en el enlace 
+
 \url{http://54.171.225.70:32001/descarga} . Se descargará un archivo en formato \textit{.apk}, que se instalará en el móvil o tablet.
 \subsection{Uso de la aplicación}
 Una vez descargada la apk, la aplicación abrirá un aviso de descarga de la lista de ejercicios, informado de su tamaño en megas.
@@ -947,7 +1114,7 @@ Una vez descargada la apk, la aplicación abrirá un aviso de descarga de la lis
 	\includegraphics[width=0.3\textwidth]{graficos/manual/ConfirmacionDescarga.jpg}
 	\caption{Confirmación de la descarga}
 \end{figure}
-Si el usuario deniega la petición de descarga, la lista de ejercicios de la aplicación se mantendrá vacía hasta que el usuario seleccione manualmente la descrga de ejercicios, por si en ese momento no dispone de conexión Wifi,o no quiera gastar datos, para que pueda posponer la descarga
+Si el usuario deniega la petición de descarga, la lista de ejercicios de la aplicación se mantendrá vacía hasta que el usuario seleccione manualmente la descarga de ejercicios, por si en ese momento no dispone de conexión Wifi,o no quiera gastar datos, para que pueda posponer la descarga
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/NotificacionDescarga.jpg}
@@ -961,9 +1128,12 @@ Cuando el usuario se disponga a descargar los ejercicios, la aplicación dará p
 \end{figure}
 Una vez completada la descarga de los ejercicios, la aplicación se iniciará siempre con el menú principal, en el que hay tres botones principales, que llevarán a tres páginas distintas:
 \begin{enumerate}
-	\item El botón \textit{“Ejercicios”}: Se encuentra en la zona derecha, en la parte de arriba, y permite al usuario ver la lista de ejercicios disponible en la aplicación, si ha sido previamente descargada.
-	\item El botón \textit{“Rutinas”}: Se encuentra ocupando toda la mitad izquierda de la pantalla, y permite al usuario interaccionar con las rutinas que se encuentran en modo local, es decir, las creadas únicamente por él. Puede añadir, eliminar, ejecutar y modificar con plena libertad.
-	\item El botón \textit{“Premium”}: Se encuentra en la zona inferior de la mitad derecha, y permite al usuario, con su clave de usuario de gimnasio, o con la de coach de gimnasio, acceder a las rutinas específicas del gimnasio en el que están registrados.
+	\item El botón \textit{“Ejercicios”}: Se encuentra en la zona derecha, en la parte de arriba, y permite al usuario ver la lista de ejercicios disponible en la aplicación, si ha sido previamente descargada.
+
+	\item El botón \textit{“Rutinas”}: Se encuentra ocupando toda la mitad izquierda de la pantalla, y permite al usuario interaccionar con las rutinas que se encuentran en modo local, es decir, las creadas únicamente por él. Puede añadir, eliminar, ejecutar y modificar con plena libertad.
+
+	\item El botón \textit{“Premium”}: Se encuentra en la zona inferior de la mitad derecha, y permite al usuario, con su clave de usuario de gimnasio, o con la de coach de gimnasio, acceder a las rutinas específicas del gimnasio en el que están registrados.
+
 \end{enumerate}
 \subsubsection{Ejercicios}
 \begin{figure}[H]
@@ -977,13 +1147,19 @@ Cuando el usuario pulse el botón de ejercicios, se le redirigirá a la página 
 	\includegraphics[width=0.3\textwidth]{graficos/manual/verEjercicio.jpg}
 	\caption{Ver Ejercicio}
 \end{figure}
-En esta pantalla el usuario podrá observar información más detallada sobre el ejercicio, la cual se va a explicar en esta lista numerada( de arriba a abajo en la imagen):
+En esta pantalla el usuario podrá observar información más detallada sobre el ejercicio, la cual se va a explicar en esta lista numerada (de arriba a abajo en la imagen):
+
 \begin{enumerate}
-	\item Nombre del ejercicio
-	\item Músculo utilizado
-	\item Tags del ejercicio, pequeñas referencias a músculos para que sea más fácil realizar búsquedas o para dotar de información más específica a los ejercicios.
-	\item Imagen que representa el uso del ejercicio
-	\item Descripción de cómo realizar el ejercicio.
+	\item Nombre del ejercicio
+
+	\item Músculo utilizado
+
+	\item Tags del ejercicio, pequeñas referencias a músculos para que sea más fácil realizar búsquedas o para dotar de información más específica a los ejercicios.
+
+	\item Imagen que representa el uso del ejercicio
+
+	\item Descripción de cómo realizar el ejercicio.
+
 \end{enumerate}
 \paragraph{Búsqueda de ejercicios}
 
@@ -992,39 +1168,49 @@ Además, también se ha incluido una opción de filtrado y búsqueda de ejercici
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/Busqueda.jpg}
 	\caption{Búsqueda}
-\end{figure}
+\end{figure}
+
 Cuando el usuario presiona el botón de lupa encontrado en la zona de la barra de acción de Android, apaerece un campo en el que el usuario puede introducir la cadena de caráceteres a buscar.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/SpinnerBusqueda.jpg}
 	\caption{Spinner Búsqueda}
-\end{figure}
+\end{figure}
+
 Además el usuario tiene a su disposición una lista de opciones para  la búsqueda, ya que el usuario puede filtrar las rutinas según:
 \begin{enumerate}
-	\item Nombre
-	\item Músculo
-	\item Tag
+	\item Nombre
+
+	\item Músculo
+
+	\item Tag
+
 \end{enumerate}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/FiltradoBusqueda.jpg}
 	\caption{Filtrado de Búsqueda}
-\end{figure}
+\end{figure}
+
 Una vez el usuario ha seleccionado sus preferencias de búsqueda, el programa realiza una búsqueda según dichas preferencias.
 \subsubsection{Rutinas}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/RutinasFreemium.jpg}
 	\caption{Rutinas Freemium}
-\end{figure}
-Cuando el usuario selecciona la opción de “Rutinas” en el menú principal, será redirigido a una página con una lista de rutinas en local creadas por el usuario,un botón flotante que sirve para crear una rutina nueva, y una botón de búsqueda en la barra de acción de Android, que realiza un filtrado similar al de la lista de ejercicios.
+\end{figure}
+
+Cuando el usuario selecciona la opción de “Rutinas” en el menú principal, será redirigido a una página con una lista de rutinas en local creadas por el usuario,un botón flotante que sirve para crear una rutina nueva, y una botón de búsqueda en la barra de acción de Android, que realiza un filtrado similar al de la lista de ejercicios.
+
 \paragraph{Buscar y editar rutinas}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/BuscarRutinasFreemium.jpg}
 	\caption{Buscar Rutinas Freemium}
-\end{figure}
-Los pasos a seguir para realizar la búsqueda son los mismos que en la lista de ejercicios, sólo que aquí hay dos campos por los que el usuario puede buscar:
+\end{figure}
+
+Los pasos a seguir para realizar la búsqueda son los mismos que en la lista de ejercicios, sólo que aquí hay dos campos por los que el usuario puede buscar:
+
 \begin{enumerate}
 	\item Nombre
 	\item Objetivo de la rutina
@@ -1035,15 +1221,21 @@ Si el usuario selecciona una rutina, será direccionado a una pantalla donde pue
 	\includegraphics[width=0.3\textwidth]{graficos/manual/EditarRutina.jpg}
 	\caption{Editar Rutina}
 \end{figure}
-En esta página podemos observar la información de la rutina:
+En esta página podemos observar la información de la rutina:
+
 \begin{enumerate}
-	\item Nombre de la rutina
-	\item Gimnasio, que indica el gimnasio que ha creado la rutina, si esta es premium.
-	\item Objetivo de la rutina
-	\item Lista de ejercicios
+	\item Nombre de la rutina
+
+	\item Gimnasio, que indica el gimnasio que ha creado la rutina, si esta es premium.
+
+	\item Objetivo de la rutina
+
+	\item Lista de ejercicios
+
 \end{enumerate}
 Y un botón flotante cuya funcionalidad es añadir ejercicios a la rutina.
-\\Si el usuario quiere guardar la información de la rutina, deberá pulsar el botón que se encuentra en la barra de acción, que tiene el icono de un disquete, y guardará toda modificación hecha la rutina.
+\\Si el usuario quiere guardar la información de la rutina, deberá pulsar el botón que se encuentra en la barra de acción, que tiene el icono de un disquete, y guardará toda modificación hecha la rutina.
+
 \paragraph{Añadir ejercicios a rutina}
 \begin{figure}[H]
 	\centering
@@ -1058,9 +1250,12 @@ Si el usuario pulsa el botón de añadir ejercicios, será redirigido a la lista
 \end{figure}
 Cuando el usuario seleccione los ejercicios, también tiene que seleccionar otros atributos del mismo:
 \begin{enumerate}
-	\item Número de series del ejercicio
-	\item Número de repeticiones de cada serie
-	\item Tiempo de descanso entre series
+	\item Número de series del ejercicio
+
+	\item Número de repeticiones de cada serie
+
+	\item Tiempo de descanso entre series
+
 \end{enumerate}
 \begin{figure}[H]
 	\centering
@@ -1069,9 +1264,10 @@ Cuando el usuario seleccione los ejercicios, también tiene que seleccionar otro
 \end{figure}
 Al añadir los ejercicios, el usuario también tiene la posibilidad de modificar esta lista según sus necesidades, ya que al seleccionar un ejercicio de la lista se le abrirá un menú con estas opciones:
 \begin{enumerate}
-	\item Editar ejercicio, en la que el usuario podrá cambiar cualquiera de los tres campos( series,repeticiones, tiempo de descanso) del ejercicio seleccionado.
+	\item Editar ejercicio, en la que el usuario podrá cambiar cualquiera de los tres campos (series,repeticiones, tiempo de descanso) del ejercicio seleccionado.
 	\item Eliminar ejercicio de la lista de ejercicios de la rutina
-	\item Subir ejercicio una posición, para que se ejecute una posición antes.
+	\item Subir ejercicio una posición, para que se ejecute una posición antes.
+
 	\item Bajar ejercicio una posición, para que se ejecute una posición después.
 \end{enumerate}
 \paragraph{Ejecutar rutina}
@@ -1086,48 +1282,58 @@ En la pantalla de inicio de la rutina, se muestra información sobre cómo avanz
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/EjercicioEnEmpezarRutina.jpg}
 	\caption{Ejercicio en ejecución de rutina}
-\end{figure}
-En esta pantalla se muestra el ejercicio al ejecutar la rutina. Incluye en la zona superior el tiempo total invertido en la rutina, y un botón de pausa por si se quiere empezar/parar el contador. Además, incluye la información perteneciente al ejercicio, series, repeticiones y músculo usado.
+\end{figure}
+
+En esta pantalla se muestra el ejercicio al ejecutar la rutina. Incluye en la zona superior el tiempo total invertido en la rutina, y un botón de pausa por si se quiere empezar/parar el contador. Además, incluye la información perteneciente al ejercicio, series, repeticiones y músculo usado.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/PantallaDescanso.jpg}
 	\caption{Pantalla de descanso}
 \end{figure}
-En esta pantalla se calcula el tiempo de descanso de cada ejercicio. Una vez terminado el tiempo, el usuario puede continuar al siguiente ejercicio, y así hasta el final de la lista de ejercicios de la rutina.
+En esta pantalla se calcula el tiempo de descanso de cada ejercicio. Una vez terminado el tiempo, el usuario puede continuar al siguiente ejercicio, y así hasta el final de la lista de ejercicios de la rutina.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/FinRutina.jpg}
 	\caption{Final de la rutina}
 \end{figure}
-Al finalizar la rutina, se mostrará la pantalla de final de rutina, y si el usuario pulsa el botón “Finalizar”, se le devuelve a la pantalla de edición de rutina.
+Al finalizar la rutina, se mostrará la pantalla de final de rutina, y si el usuario pulsa el botón “Finalizar”, se le devuelve a la pantalla de edición de rutina.
+
 \paragraph{Borrar rutinas}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/BorrarRutinasFreemium.jpg}
 	\caption{Borrado de rutinas freemium}
 \end{figure}
-Para borrar las rutinas, el usuario debe mantener pulsado las rutinas que quiere eliminar, las cuales se marcarán poniéndose en un tono más oscuro, y cuando haya seleccionado todas, pulsar el botón de “Eliminar” que se encuentra en la barra de acción.
-\subsubsection{Registro en servicio premium}
-Para poder tener acceso a un sistema premium personalizado para el gimnasio, primero, algún representante del gimnasio debe  registrarse en la dirección \url{http://54.171.225.70:32001/registrate}. 
+Para borrar las rutinas, el usuario debe mantener pulsado las rutinas que quiere eliminar, las cuales se marcarán poniéndose en un tono más oscuro, y cuando haya seleccionado todas, pulsar el botón de “Eliminar” que se encuentra en la barra de acción.
+
+\subsubsection{Registro en servicio premium}
+
+Para poder tener acceso a un sistema premium personalizado para el gimnasio, primero, algún representante del gimnasio debe  registrarse en la dirección \url{http://54.171.225.70:32001/registrate}. 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{graficos/manual/RegistroWeb.png}
 	\caption{Registro Web}
 \end{figure}
-Una vez introducido el nombre del gimnasio y un correo, el usuario debe hacer click en el botón “Registrarte”.Una vez hecho, la web le enviará al correo las dos contraseñas para los dos tipos de usuarios, para los entrenadores y para los usuarios del gimnasio. Estas contraseñas tienen que ser distribuidas por el gimnasio. Para poder acceder al servicio premium, primero debes introducir tus credenciales de gimnasio y tu contraseña, depende de si eres un usuario del gimnasio o un entrenador personal del mismo.
+Una vez introducido el nombre del gimnasio y un correo, el usuario debe hacer click en el botón “Registrarte”.Una vez hecho, la web le enviará al correo las dos contraseñas para los dos tipos de usuarios, para los entrenadores y para los usuarios del gimnasio. Estas contraseñas tienen que ser distribuidas por el gimnasio. Para poder acceder al servicio premium, primero debes introducir tus credenciales de gimnasio y tu contraseña, depende de si eres un usuario del gimnasio o un entrenador personal del mismo.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/IdentificacionPremium.jpg}
 	\caption{Acceso premium}
 \end{figure}
-Una vez accedido al sistema premium, se le presentará a los usuarios una lista de rutinas del gimnasio
+Una vez accedido al sistema premium, se le presentará a los usuarios una lista de rutinas del gimnasio
+
 \subsubsection{Servicio premium}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\textwidth]{graficos/manual/RutinasPremium.jpg}
 	\caption{Lista de rutinas premium}
 \end{figure}
-La interfaz es igual a la parte free, pero la única diferencia es que en la barra de acción de Android, se incluye el nombre del gimnasio al cual el usuario pertenece.A nivel de funcionalidad, la interfaz funciona igual que en la parte gratuita, pero los dos usuarios tienen distintos permisos para modificar las rutinas:
+La interfaz es igual a la parte free, pero la única diferencia es que en la barra de acción de Android, se incluye el nombre del gimnasio al cual el usuario pertenece.
+A nivel de funcionalidad, la interfaz funciona igual que en la parte gratuita, pero los dos usuarios tienen distintos permisos para modificar las rutinas:
 \begin{enumerate}
 	\item Los usuarios del gimnasio, sólo pueden ver, filtrar y ejecutar rutinas.
 	\item Los entrenadores del gimnasio, pueden realizar todas las acciones de un usuario normal, más la creación, modificación y eliminación de las rutinas.
@@ -1137,5 +1343,6 @@ La interfaz es igual a la parte free, pero la única diferencia es que en la bar
 	\includegraphics[width=0.3\textwidth]{graficos/manual/EditarRutinaPremium.jpg}
 	\caption{Editar Rutina Premium}
 \end{figure}
-Además, la aplicación informará de todos los cambios realizdos a los entrenadores personales, mediante un diálogo en el que le indicará si las operaciones se han podido realizar en el servidor o ha habido algún problema de red.
+Además, la aplicación informará de todos los cambios realizados a los entrenadores personales, mediante un diálogo en el que le indicará si las operaciones se han podido realizar en el servidor o ha habido algún problema de red.
+
 \end{document}    
