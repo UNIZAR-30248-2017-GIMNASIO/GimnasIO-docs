@@ -39,6 +39,34 @@
 \contentsline {subsection}{\numberline {3.1.8}Resultados de la \IeC {\'u}ltima retrospectiva}{29}{subsection.3.1.8}
 \contentsline {subsection}{\numberline {3.1.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{30}{subsection.3.1.9}
 \contentsline {section}{\numberline {3.2}Segundo Sprint}{31}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusiones}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Primer Sprint}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}Segundo Sprint}{33}{section.4.2}
+\contentsline {subsection}{\numberline {3.2.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{31}{subsection.3.2.1}
+\contentsline {subsubsection}{Test unitarios de la base de datos}{31}{section*.19}
+\contentsline {paragraph}{Tests sobre ejercicios:}{31}{section*.20}
+\contentsline {paragraph}{Tests sobre rutinas:}{32}{section*.21}
+\contentsline {subsubsection}{Test de llamadas a la api remota}{33}{section*.22}
+\contentsline {subsubsection}{Test de aceptaci\IeC {\'o}n autom\IeC {\'a}ticos}{33}{section*.23}
+\contentsline {subsection}{\numberline {3.2.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{34}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Definici\IeC {\'o}n de hecho}{34}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Estrategia de control de versiones}{34}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Esfuerzos por persona}{36}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Velocidad del equipo}{36}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}Conclusiones}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Primer Sprint}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Segundo Sprint}{39}{section.4.2}
+\contentsline {chapter}{\numberline {5}ANEXO I: MANUAL DE USUARIO}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Informaci\IeC {\'o}n general}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Resumen del sistema}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Configuraci\IeC {\'o}n del sistema}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Niveles de acceso del usuario}{40}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}C\IeC {\'o}mo empezar a usar el sistema}{40}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descarga e instalaci\IeC {\'o}n}{41}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Uso de la aplicaci\IeC {\'o}n}{41}{subsection.5.3.2}
+\contentsline {subsubsection}{Ejercicios}{43}{section*.24}
+\contentsline {paragraph}{B\IeC {\'u}squeda de ejercicios}{44}{section*.25}
+\contentsline {subsubsection}{Rutinas}{46}{section*.26}
+\contentsline {paragraph}{Buscar y editar rutinas}{47}{figure.5.10}
+\contentsline {paragraph}{A\IeC {\~n}adir ejercicios a rutina}{49}{figure.5.12}
+\contentsline {paragraph}{Ejecutar rutina}{50}{section*.29}
+\contentsline {paragraph}{Borrar rutinas}{53}{figure.5.19}
+\contentsline {subsubsection}{Registro en servicio premium}{53}{section*.31}
+\contentsline {subsubsection}{Servicio premium}{54}{section*.32}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.7)  14 JAN 2018 23:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.7)  15 JAN 2018 01:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -999,6 +999,9 @@ LaTeX Info: Redefining \% on input line 23.
 
 LaTeX Warning: Label `cod:apiGym' multiply defined.
 
+
+LaTeX Warning: Label `fig: repos' multiply defined.
+
 )
 \openout1 = `informe_final.aux'.
 
@@ -1108,7 +1111,7 @@ your preamble.
  on input line 42.
 
 \c@lstlisting=\count148
-<diisLogo.png, id=111, 236.885pt x 74.2775pt>
+<diisLogo.png, id=167, 236.885pt x 74.2775pt>
 File: diisLogo.png Graphic file (type png)
  <use diisLogo.png>
 Package pdftex.def Info: diisLogo.png used on input line 43.
@@ -1466,7 +1469,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.224 	\item E
               xiste una API REST contra la que realizar peticiones para obte...
-] <capturicas/er.jpg, id=189, 803.0pt x 602.25pt>
+] <capturicas/er.jpg, id=259, 803.0pt x 602.25pt>
 File: capturicas/er.jpg Graphic file (type jpg)
  <use capturicas/er.jpg>
 Package pdftex.def Info: capturicas/er.jpg used on input line 249.
@@ -1503,7 +1506,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.255 ...\textbf{Requisitos/Historias de usuario:}
                                                    <./capturicas/er.jpg>]
-<capturicas/guipbidownload1.png, id=202, 105.39375pt x 149.8097pt>
+<capturicas/guipbidownload1.png, id=272, 105.39375pt x 149.8097pt>
 File: capturicas/guipbidownload1.png Graphic file (type png)
 
 <use capturicas/guipbidownload1.png>
@@ -1511,7 +1514,7 @@ Package pdftex.def Info: capturicas/guipbidownload1.png used on input line 273.
 
 (pdftex.def)             Requested size: 120.92421pt x 171.8889pt.
 
-<capturicas/guipbidownload2.png, id=203, 108.405pt x 153.57375pt>
+<capturicas/guipbidownload2.png, id=273, 108.405pt x 153.57375pt>
 File: capturicas/guipbidownload2.png Graphic file (type png)
 
 <use capturicas/guipbidownload2.png>
@@ -1555,14 +1558,14 @@ Package babel Info: Redefining spanish shorthand "?
 l.303 \par\textbf{Requisitos/Historias de usuario}
                                                    <./capturicas/guipbidownload
 1.png> <./capturicas/guipbidownload2.png>]
-<capturicas/guipbiverejer.png, id=220, 108.405pt x 151.3153pt>
+<capturicas/guipbiverejer.png, id=290, 108.405pt x 151.3153pt>
 File: capturicas/guipbiverejer.png Graphic file (type png)
 
 <use capturicas/guipbiverejer.png>
 Package pdftex.def Info: capturicas/guipbiverejer.png used on input line 315.
 (pdftex.def)             Requested size: 96.73788pt x 135.0373pt.
 
-<capturicas/guipbiverrutinas.png, id=221, 106.14656pt x 151.3153pt>
+<capturicas/guipbiverrutinas.png, id=291, 106.14656pt x 151.3153pt>
 File: capturicas/guipbiverrutinas.png Graphic file (type png)
 
 <use capturicas/guipbiverrutinas.png>
@@ -1600,7 +1603,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.341 \subsubsection
                     {PBI: Crear rutina} <./capturicas/guipbiverejer.png>]
-<capturicas/guipbiverrutina.png, id=235, 103.88812pt x 149.8097pt>
+<capturicas/guipbiverrutina.png, id=305, 103.88812pt x 149.8097pt>
 File: capturicas/guipbiverrutina.png Graphic file (type png)
 
 <use capturicas/guipbiverrutina.png>
@@ -1651,7 +1654,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 391.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 391.
- <capturicas/bocGui.png, id=248, 548.0475pt x 954.56625pt>
+ <capturicas/bocGui.png, id=319, 548.0475pt x 954.56625pt>
 File: capturicas/bocGui.png Graphic file (type png)
 
 <use capturicas/bocGui.png>
@@ -1713,7 +1716,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 402.
 
-<capturicas/CvCSer.png, id=261, 376.93765pt x 667.43471pt>
+<capturicas/CvCSer.png, id=332, 376.93765pt x 667.43471pt>
 File: capturicas/CvCSer.png Graphic file (type png)
 
 <use capturicas/CvCSer.png>
@@ -1751,7 +1754,7 @@ Package babel Info: Redefining spanish shorthand "?
 l.411 E
        ste servidor ha sido desarrollado con una arquitectura por capas basa...
  <./capturicas/bocGui.png>]
-<capturicas/depSer.png, id=272, 680.18823pt x 867.24pt>
+<capturicas/depSer.png, id=343, 680.18823pt x 867.24pt>
 File: capturicas/depSer.png Graphic file (type png)
 
 <use capturicas/depSer.png>
@@ -1940,7 +1943,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.460 \par
            \textbf{Actualización}] (./capturicas/updateDoc.txt)
-<capturicas/CvCApp.png, id=413, 751.04118pt x 836.06471pt>
+<capturicas/CvCApp.png, id=483, 751.04118pt x 836.06471pt>
 File: capturicas/CvCApp.png Graphic file (type png)
 
 <use capturicas/CvCApp.png>
@@ -2007,7 +2010,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 478.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 478.
- <graficos/CyCserver.png, id=464, 724.7075pt x 684.5575pt>
+ <graficos/CyCserver.png, id=535, 724.7075pt x 684.5575pt>
 File: graficos/CyCserver.png Graphic file (type png)
 
 <use graficos/CyCserver.png>
@@ -2045,7 +2048,7 @@ Package babel Info: Redefining spanish shorthand "?
 l.490 S
        e mantiene la API Rest como método de comunicación del servidor con...
  <./capturicas/CvCApp.png>]
-<graficos/despliegue.png, id=472, 733.74126pt x 553.06625pt>
+<graficos/despliegue.png, id=543, 733.74126pt x 553.06625pt>
 File: graficos/despliegue.png Graphic file (type png)
 
 <use graficos/despliegue.png>
@@ -2203,7 +2206,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 539.
 
-[24] <graficos/CyCApp.png, id=621, 482.80376pt x 443.6575pt>
+[24] <graficos/CyCApp.png, id=691, 482.80376pt x 443.6575pt>
 File: graficos/CyCApp.png Graphic file (type png)
 
 <use graficos/CyCApp.png>
@@ -2408,14 +2411,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 599.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 599.
- <capturicas/burnup.png, id=668, 505.89pt x 329.73187pt>
+ <capturicas/burnup.png, id=738, 505.89pt x 329.73187pt>
 File: capturicas/burnup.png Graphic file (type png)
 
 <use capturicas/burnup.png>
 Package pdftex.def Info: capturicas/burnup.png used on input line 603.
 (pdftex.def)             Requested size: 338.5863pt x 220.68774pt.
 
-<capturicas/burndown.png, id=669, 505.89pt x 297.36093pt>
+<capturicas/burndown.png, id=739, 505.89pt x 297.36093pt>
 File: capturicas/burndown.png Graphic file (type png)
 
 <use capturicas/burndown.png>
@@ -2514,7 +2517,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 639.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 639.
- <capturicas/tablerico.png, id=682, 1090.0725pt x 500.62032pt>
+ <capturicas/tablerico.png, id=753, 1090.0725pt x 500.62032pt>
 File: capturicas/tablerico.png Graphic file (type png)
 
 <use capturicas/tablerico.png>
@@ -2576,135 +2579,1232 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 669.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 684.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 684.
  [31]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 725.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 725.
+ [32]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 766.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 766.
+ [33]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 776.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 780.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 781.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 781.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 781.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 781.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 781.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 781.
+
+<graficos/repos.png, id=778, 510.40688pt x 295.1025pt>
+File: graficos/repos.png Graphic file (type png)
+
+<use graficos/repos.png>
+Package pdftex.def Info: graficos/repos.png used on input line 786.
+(pdftex.def)             Requested size: 483.69684pt x 279.67484pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 790.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 790.
+ [34]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 792.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 792.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 792.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 792.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 792.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 792.
+
+<graficos/esfuerzos.png, id=784, 800.23969pt x 440.39531pt>
+File: graficos/esfuerzos.png Graphic file (type png)
+
+<use graficos/esfuerzos.png>
+Package pdftex.def Info: graficos/esfuerzos.png used on input line 795.
+(pdftex.def)             Requested size: 483.69684pt x 266.1947pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 799.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 799.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.799 S
+       e puede observar un reparto más o menos parecido de los esfuerzos po...
+ <./graficos/repos.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 801.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 801.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 801.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 801.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 801.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 801.
+
+<graficos/burnup.png, id=792, 831.105pt x 406.51875pt>
+File: graficos/burnup.png Graphic file (type png)
+
+<use graficos/burnup.png>
+Package pdftex.def Info: graficos/burnup.png used on input line 810.
+(pdftex.def)             Requested size: 483.69684pt x 236.58742pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 817.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 817.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.817 
+       <./graficos/esfuerzos.png>]
+<graficos/burndown.png, id=799, 845.40843pt x 456.95718pt>
+File: graficos/burndown.png Graphic file (type png)
+
+<use graficos/burndown.png>
+Package pdftex.def Info: graficos/burndown.png used on input line 822.
+(pdftex.def)             Requested size: 483.69684pt x 261.44446pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 826.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 826.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.826 \chapter
+              {Conclusiones}pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.826 \chapter
+              {Conclusiones} <./graficos/burnup.png> <./graficos/burndown.png>]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 670.
+(babel)             in language  on input line 827.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 844.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 687.
-[32
+(babel)             in language  on input line 844.
+[38
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 845.
 
-Overfull \hbox (23.12476pt too wide) in paragraph at lines 696--697
+Overfull \hbox (23.12476pt too wide) in paragraph at lines 853--854
 \OT1/cmr/m/n/10.95 tu-ra de 81$ $% de c^^Sodi-go []$\OT1/cmtt/m/n/10.95 https :
  / / codecov . io / gh / UNIZAR-[]30248-[]2017-[]GIMNASIO / GimnasIO-[]server$[
 ]\OT1/cmr/m/n/10.95 .
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 720.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 720.
-[33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 720.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 720.
- (./informe_final.aux
+(babel)             in language  on input line 868.
+[39]
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 868.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 869.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 874.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 877.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 884.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 889.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 892.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 895.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 895.
+[40
+
+]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 896.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 896.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 896.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 896.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 896.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 896.
+
+<graficos/manual/ConfirmacionDescarga.jpg, id=822, 1081.03876pt x 1986.42125pt>
+File: graficos/manual/ConfirmacionDescarga.jpg Graphic file (type jpg)
+<use graficos/manual/ConfirmacionDescarga.jpg>
+Package pdftex.def Info: graficos/manual/ConfirmacionDescarga.jpg used on input
+ line 900.
+(pdftex.def)             Requested size: 145.11052pt x 266.63979pt.
+
+<graficos/manual/NotificacionDescarga.jpg, id=823, 1084.05pt x 1834.855pt>
+File: graficos/manual/NotificacionDescarga.jpg Graphic file (type jpg)
+
+<use graficos/manual/NotificacionDescarga.jpg>
+Package pdftex.def Info: graficos/manual/NotificacionDescarga.jpg used on input
+ line 906.
+(pdftex.def)             Requested size: 145.11052pt x 245.59491pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 909.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 909.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.909 C
+       uando el usuario se disponga a descargar los ejercicios, la aplicaci�...
+ <./graficos/manual/ConfirmacionDescarga.jpg>]
+<graficos/manual/Menu.jpg, id=830, 1084.05pt x 1984.41376pt>
+File: graficos/manual/Menu.jpg Graphic file (type jpg)
+
+<use graficos/manual/Menu.jpg>
+Package pdftex.def Info: graficos/manual/Menu.jpg used on input line 912.
+(pdftex.def)             Requested size: 145.11052pt x 265.61333pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 920.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 920.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.920 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.920 
+       <./graficos/manual/NotificacionDescarga.jpg> <./graficos/manual/Menu.jpg
+>] <graficos/manual/ListaEjercicios.jpg, id=838, 1084.05pt x 1984.41376pt>
+File: graficos/manual/ListaEjercicios.jpg Graphic file (type jpg)
+
+<use graficos/manual/ListaEjercicios.jpg>
+Package pdftex.def Info: graficos/manual/ListaEjercicios.jpg used on input line
+ 927.
+(pdftex.def)             Requested size: 145.11052pt x 265.61333pt.
+
+<graficos/manual/verEjercicio.jpg, id=839, 1084.05pt x 1981.4025pt>
+File: graficos/manual/verEjercicio.jpg Graphic file (type jpg)
+
+<use graficos/manual/verEjercicio.jpg>
+Package pdftex.def Info: graficos/manual/verEjercicio.jpg used on input line 93
+3.
+(pdftex.def)             Requested size: 145.11052pt x 265.21027pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 936.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 936.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.936 E
+       n esta pantalla el usuario podrá observar información más detallad...
+ <./graficos/manual/ListaEjercicios.jpg>]
+<graficos/manual/Busqueda.jpg, id=848, 1081.03876pt x 1986.42125pt>
+File: graficos/manual/Busqueda.jpg Graphic file (type jpg)
+
+<use graficos/manual/Busqueda.jpg>
+Package pdftex.def Info: graficos/manual/Busqueda.jpg used on input line 955.
+(pdftex.def)             Requested size: 145.11052pt x 266.63979pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 958.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 958.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.958 
+       <./graficos/manual/verEjercicio.jpg>]
+<graficos/manual/SpinnerBusqueda.jpg, id=861, 1084.05pt x 1995.455pt>
+File: graficos/manual/SpinnerBusqueda.jpg Graphic file (type jpg)
+
+<use graficos/manual/SpinnerBusqueda.jpg>
+Package pdftex.def Info: graficos/manual/SpinnerBusqueda.jpg used on input line
+ 962.
+(pdftex.def)             Requested size: 145.11052pt x 267.09119pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 974.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 974.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.974 \end{enumerate}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.5.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.974 \end{enumerate}
+                      <./graficos/manual/Busqueda.jpg> <./graficos/manual/Spinn
+erBusqueda.jpg>]
+<graficos/manual/FiltradoBusqueda.jpg, id=870, 1084.05pt x 1981.4025pt>
+File: graficos/manual/FiltradoBusqueda.jpg Graphic file (type jpg)
+
+<use graficos/manual/FiltradoBusqueda.jpg>
+Package pdftex.def Info: graficos/manual/FiltradoBusqueda.jpg used on input lin
+e 977.
+(pdftex.def)             Requested size: 145.11052pt x 265.21027pt.
+
+<graficos/manual/RutinasFreemium.jpg, id=871, 1084.05pt x 1987.425pt>
+File: graficos/manual/RutinasFreemium.jpg Graphic file (type jpg)
+
+<use graficos/manual/RutinasFreemium.jpg>
+Package pdftex.def Info: graficos/manual/RutinasFreemium.jpg used on input line
+ 985.
+(pdftex.def)             Requested size: 145.11052pt x 266.01637pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 990.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 990.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.990 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.990 
+       <./graficos/manual/FiltradoBusqueda.jpg> <./graficos/manual/RutinasFreem
+ium.jpg>]
+<graficos/manual/BuscarRutinasFreemium.jpg, id=880, 1081.03876pt x 1999.47pt>
+File: graficos/manual/BuscarRutinasFreemium.jpg Graphic file (type jpg)
+
+<use graficos/manual/BuscarRutinasFreemium.jpg>
+Package pdftex.def Info: graficos/manual/BuscarRutinasFreemium.jpg used on inpu
+t line 994.
+(pdftex.def)             Requested size: 145.11052pt x 268.39133pt.
+
+<graficos/manual/EditarRutina.jpg, id=881, 1081.03876pt x 1995.455pt>
+File: graficos/manual/EditarRutina.jpg Graphic file (type jpg)
+
+<use graficos/manual/EditarRutina.jpg>
+Package pdftex.def Info: graficos/manual/EditarRutina.jpg used on input line 10
+07.
+(pdftex.def)             Requested size: 145.11052pt x 267.85239pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1010.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1010.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1010 E
+        n esta página podemos observar la información de la rutina: <./grafic
+os/manual/BuscarRutinasFreemium.jpg>]
+<graficos/manual/AnadirEjercicioLista.jpg, id=891, 1081.03876pt x 1995.455pt>
+File: graficos/manual/AnadirEjercicioLista.jpg Graphic file (type jpg)
+
+<use graficos/manual/AnadirEjercicioLista.jpg>
+Package pdftex.def Info: graficos/manual/AnadirEjercicioLista.jpg used on input
+ line 1028.
+(pdftex.def)             Requested size: 145.11052pt x 267.85239pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1031.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1031.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1031 S
+        i el usuario pulsa el botón de añadir ejercicios, será redirigido...
+ <./graficos/manual/EditarRutina.jpg>]
+<graficos/manual/AnadirEjercicio.jpg, id=901, 1081.03876pt x 1994.45125pt>
+File: graficos/manual/AnadirEjercicio.jpg Graphic file (type jpg)
+
+<use graficos/manual/AnadirEjercicio.jpg>
+Package pdftex.def Info: graficos/manual/AnadirEjercicio.jpg used on input line
+ 1034.
+(pdftex.def)             Requested size: 145.11052pt x 267.71765pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1045.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1045.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1045 \end{enumerate}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.5.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1045 \end{enumerate}
+                       <./graficos/manual/AnadirEjercicioLista.jpg> <./graficos
+/manual/AnadirEjercicio.jpg>]
+<graficos/manual/MenuEjercicioEnRutina.jpg, id=911, 1084.05pt x 1981.4025pt>
+File: graficos/manual/MenuEjercicioEnRutina.jpg Graphic file (type jpg)
+
+<use graficos/manual/MenuEjercicioEnRutina.jpg>
+Package pdftex.def Info: graficos/manual/MenuEjercicioEnRutina.jpg used on inpu
+t line 1048.
+(pdftex.def)             Requested size: 145.11052pt x 265.21027pt.
+
+Overfull \hbox (13.5554pt too wide) in paragraph at lines 1053--1054
+[]\OT1/cmr/m/n/10.95 Editar ejer-ci-cio, en la que el usua-rio podr^^Sa cam-bia
+r cual-quie-ra de los tres cam-pos( se-ries,repeticiones,
+ []
+
+<graficos/manual/EmpezarRutina.jpg, id=912, 1084.05pt x 1991.44pt>
+File: graficos/manual/EmpezarRutina.jpg Graphic file (type jpg)
+
+<use graficos/manual/EmpezarRutina.jpg>
+Package pdftex.def Info: graficos/manual/EmpezarRutina.jpg used on input line 1
+063.
+(pdftex.def)             Requested size: 145.11052pt x 266.55379pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1066.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1066.
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1066 E
+        n la pantalla de inicio de la rutina, se muestra información sobre ...
+ <./graficos/manual/MenuEjercicioEnRutina.jpg>]
+<graficos/manual/EjercicioEnEmpezarRutina.jpg, id=924, 1084.05pt x 1977.3875pt>
+File: graficos/manual/EjercicioEnEmpezarRutina.jpg Graphic file (type jpg)
+<use graficos/manual/EjercicioEnEmpezarRutina.jpg>
+Package pdftex.def Info: graficos/manual/EjercicioEnEmpezarRutina.jpg used on i
+nput line 1069.
+(pdftex.def)             Requested size: 145.11052pt x 264.67287pt.
+
+<graficos/manual/PantallaDescanso.jpg, id=925, 1084.05pt x 1984.41376pt>
+File: graficos/manual/PantallaDescanso.jpg Graphic file (type jpg)
+
+<use graficos/manual/PantallaDescanso.jpg>
+Package pdftex.def Info: graficos/manual/PantallaDescanso.jpg used on input lin
+e 1077.
+(pdftex.def)             Requested size: 145.11052pt x 265.61333pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1080.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1080.
+ [51pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1080 E
+        n esta pantalla se calcula el tiempo de descanso de cada ejercicio. ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1080 E
+        n esta pantalla se calcula el tiempo de descanso de cada ejercicio. ...
+ <./graficos/manual/EmpezarRutina.jpg> <./graficos/manual/EjercicioEnEmpezarRut
+ina.jpg>] <graficos/manual/FinRutina.jpg, id=932, 1084.05pt x 1980.39874pt>
+File: graficos/manual/FinRutina.jpg Graphic file (type jpg)
+
+<use graficos/manual/FinRutina.jpg>
+Package pdftex.def Info: graficos/manual/FinRutina.jpg used on input line 1084.
+
+(pdftex.def)             Requested size: 145.11052pt x 265.07591pt.
+
+<graficos/manual/BorrarRutinasFreemium.jpg, id=933, 1081.03876pt x 1977.3875pt>
+File: graficos/manual/BorrarRutinasFreemium.jpg Graphic file (type jpg)
+<use graficos/manual/BorrarRutinasFreemium.jpg>
+Package pdftex.def Info: graficos/manual/BorrarRutinasFreemium.jpg used on inpu
+t line 1092.
+(pdftex.def)             Requested size: 145.11052pt x 265.42717pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1095.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1095.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1095 P
+        ara borrar las rutinas, el usuario debe mantener pulsado las rutinas...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1095 P
+        ara borrar las rutinas, el usuario debe mantener pulsado las rutinas...
+ <./graficos/manual/PantallaDescanso.jpg> <./graficos/manual/FinRutina.jpg>]
+<graficos/manual/RegistroWeb.png, id=941, 1371.1225pt x 710.655pt>
+File: graficos/manual/RegistroWeb.png Graphic file (type png)
+
+<use graficos/manual/RegistroWeb.png>
+Package pdftex.def Info: graficos/manual/RegistroWeb.png used on input line 110
+3.
+(pdftex.def)             Requested size: 435.32419pt x 225.62503pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1107.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1107.
+ [53pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1107 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.5.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1107 
+        <./graficos/manual/BorrarRutinasFreemium.jpg> <./graficos/manual/Regist
+roWeb.png>]
+<graficos/manual/IdentificacionPremium.jpg, id=951, 1084.05pt x 1981.4025pt>
+File: graficos/manual/IdentificacionPremium.jpg Graphic file (type jpg)
+
+<use graficos/manual/IdentificacionPremium.jpg>
+Package pdftex.def Info: graficos/manual/IdentificacionPremium.jpg used on inpu
+t line 1110.
+(pdftex.def)             Requested size: 145.11052pt x 265.21027pt.
+
+<graficos/manual/RutinasPremium.jpg, id=952, 1084.05pt x 1981.4025pt>
+File: graficos/manual/RutinasPremium.jpg Graphic file (type jpg)
+
+<use graficos/manual/RutinasPremium.jpg>
+Package pdftex.def Info: graficos/manual/RutinasPremium.jpg used on input line 
+1118.
+(pdftex.def)             Requested size: 145.11052pt x 265.21027pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1123.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1123.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1123 \begin{enumerate}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.5.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1123 \begin{enumerate}
+                         <./graficos/manual/IdentificacionPremium.jpg> <./grafi
+cos/manual/RutinasPremium.jpg>]
+<graficos/manual/EditarRutinaPremium.jpg, id=960, 1081.03876pt x 1982.40625pt>
+File: graficos/manual/EditarRutinaPremium.jpg Graphic file (type jpg)
+
+<use graficos/manual/EditarRutinaPremium.jpg>
+Package pdftex.def Info: graficos/manual/EditarRutinaPremium.jpg used on input 
+line 1129.
+(pdftex.def)             Requested size: 145.11052pt x 266.10085pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1134.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1134.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1134 \end{document}
+                      <./graficos/manual/EditarRutinaPremium.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1134.
+
+(./informe_final.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 720.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 720.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1134.
+
 Package rerunfilecheck Info: File `informe_final.out' has not changed.
-(rerunfilecheck)             Checksum: 501C13089C3140CD6393D104F2DD3AB6;1933.
+(rerunfilecheck)             Checksum: 1D9BBC467079DCCD2C6DD913C915F84B;3070.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 720.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1134.
  ) 
 Here is how much of TeX's memory you used:
- 28875 strings out of 493014
- 669501 string characters out of 6133352
- 1034721 words of memory out of 5000000
- 31498 multiletter control sequences out of 15000+600000
+ 29130 strings out of 493014
+ 675388 string characters out of 6133352
+ 1034720 words of memory out of 5000000
+ 31624 multiletter control sequences out of 15000+600000
  11232 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,100p,1074b,2236s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2719,10 +3819,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on informe_final.pdf (35 pages, 502063 bytes).
+Output written on informe_final.pdf (57 pages, 5308617 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
- 431 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1118 PDF objects out of 1200 (max. 8388607)
+ 980 compressed objects within 10 object streams
+ 534 named destinations out of 1000 (max. 500000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
