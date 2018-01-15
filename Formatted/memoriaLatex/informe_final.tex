@@ -473,8 +473,146 @@ Finalmente, las actividades se encargan de recoger todas estas funcionalidades y
 	\caption{Diagrama CvC de la aplicación}
 	\label{fig: CvCApp}
 \end{figure}
-
 \section{Segundo Sprint}
+\subsection{Pila de Producto}
+\subsubsection{PBI: Completar actualizar ejercicios}
+Puntos de historia : 13
+Requisitos/Historias de usuario: El usuario debe ser capaz de descargar una lista de ejercicios sin errores de formato, de descarga o linguisticos, ya que son errores encontrados en el primer sprint y hay que corregirlos.
+Criterios de aceptación:
+\begin{itemize}
+	\item Se ha de actualizar y estudiar el código del servidor para proporcionar una descarga sin errores.
+	\item Se ha de comprobar la descarga correcta mediante la implementaión de tests automáticos.
+\end{itemize}
+\subsubsection{PBI: Modificación de la creación de rutina}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Los ejercicios han de ser modificados para que puedan almacermar, individualmente, información que en implementaciones anteriores era perteneciente a la rutina global, es decir, cada ejercicio perteneciente a una rutina debe tener sus propios campos de repeticiones, series, y tiempo de descanso.
+Criterios de aceptación:
+\begin{enumerate}
+	\item Se ha de actualizar la BD para que almacene objetos con estos campos.
+	\item Se han de actualizar los objetos en Java para que concuerden con los campos en la BD, y añadir los campos extra.
+	\item La GUI de la aplicación debe de ser actualizada para que el usuario pueda modificar estos tres campos.
+	\item Se han de actualizar los tests de BD para que comprueben los cambios realizados.
+\end{enumerate}
+\subsubsection{PBI: Modularización del código}
+Puntos de historia : 3
+Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Controlador-Vista (MCV).
+Criterios de aceptación:
+\begin{enumerate}
+	\item Se han separado cada uno de los distintos servicios disponibles en la aplicación en módulos y clases separados, por ejemplo, las funciones relacionadas con la interacción con la API, se han incluido en otro módulo.
+	\item Cada servicio posee una interfaz a través de cual se puede llamar al servicio desde cualquier punto del programa.
+	\item Se han organizado los módulos de código en distintas carpetas para poder facilitar la búsqueda de algún servicio en particular.
+\end{enumerate}
+\subsubsection{PBI: Búsqueda e implantación de herramienta de despliegue automático}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Se ha búscado e implementado satisfactoriamente una herramienta que permita automatizar el proceso de despliegue para reducir las equivocaciones y entregar software rápidamente.
+Criterios de aceptación:
+\begin{enumerate}
+	\item Se ha logrado implementar una herramienta que automatice el despliegue automático.
+\end{enumerate}
+\subsubsection{PBI: Búsquedas}
+Puntos de historia : 8
+Requisitos/Historias de usuario: El usuario puede filtrar y hacer búsquedas en la lista de ejercicios y la lista de rutinas según unos parámetros definidos para cada objeto.
+Criterios de aceptación:
+\begin{enumerate}
+	\item El usuario debe ser capaz de filtrar una lista de rutinas según dos campos: nombre y objetivo.
+	\item El usuario debe ser capaz de filtrar una lista de ejercicios según tres campos: nombre,músculo y tags.
+	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, si no que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
+\end{enumerate}
+\subsubsection{PBI: Ejecutar rutinas}
+Puntos de historia : 20
+Requisitos/Historias de usuario: El usuario puede ejecutar cualquier rutina que tenga a su dispoisción, esto es, la aplicación mantendrá un seguimiento de los ejercicios asociados a una rutina, controlando el tiempo de descanso de cada ejercicio, incluyendo un cronómetro global, e indicando el fin de los ejercicios.
+Criterios de aceptación:
+\begin{enumerate}
+	\item Al final de la lista de ejercicios, debe haber una pantalla que indique el fin de la rutina.
+	\item El usuario debe ser capaz de para el cronómetro global.
+	\item El usuario debe ser capaz de cambiar de ejercicios cuando desee, deslizándo la pantalla a la derecha.
+	\item La aplicación incluye una pantalla principal indicando las instrucciones a seguir.
+	\item La aplicación debe incluir información sobre cada ejercicio, esto es, su nombre, el número de series y repeticiones, y unos pasos a seguir para su realización.
+	\item La aplicación incluye, tras cada pantalla de ejercicio, una pantalla que inicia una cuenta atrás contando el tiempo de descanso de cada ejercicio.
+\end{enumerate}
+\subsubsection{PBI: Registro básico}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Los administradores de la aplicación deben ser capaces de registrar manualmente a usuarios en el servicio premium de la aplicación.
+Criterios de aceptación:
+\begin{enumerate}
+	\item Al dar de alta a un usuario en la BD del servidor, se deben crear claves únicas para cada usuario.
+	\item Se deben crear dos claves, una para usuario, y otra para trabajadores( entrenadores personales) de los gimnasios.
+\end{enumerate}
+\subsubsection{PBI: Acceso premium}
+Puntos de historia : 3
+Requisitos/Historias de usuario: Los usuarios con claves de acceso al servicio premium deben de ser capaces de loguearse en él.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe de tener una actividad dónde el usuario pueda introducir sus credenciales.
+	\item La aplicación debe conectarse con la API remota y mantener un envío correcto de información, sin errores.
+	\item La aplicación debe de permitir o denegar acceso al usuario según la respuesta del servidor.
+\end{enumerate}
+\subsubsection{PBI: Ver rutinas premium}
+Puntos de historia : 5
+Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver una lista con las rutinas asociadas al gimnasio.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe de obtener las rutinas de cada gimnasio mediante una petición lanzada al servidor de la aplicación.
+	\item La aplicación debe presentar al usuario las rutinas de cada gimnasio.
+	\item La aplicación debe informar al usuario si la comunicación con el servidor ha sido éxitosa o si ha habido algún problema.
+	\item Si el usuario selecciona una rutina de la lista, la aplicación le debe redirigir a una pantalla donde podrá ver la rutina en más detalle.
+\end{enumerate}
+\subsubsection{PBI: Crear rutinas premium}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de crear rutinas premium asociadas a ese gimnasio.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe permitir únicamente a los entrenadores crear rutinas premium.
+	\item El entrenador debe ser capaz de elegir los ejercicios deseados para su rutina.
+	\item El entrenador debe ser capaz de modificar los valores tiempo descanso, series y repeticiones de cada ejercicio.
+	\item La aplicación debe de subir y guardar las rutinas en el servidor mediante una petición al mismo.
+\end{enumerate}
+\subsubsection{PBI: Ver rutina premium}
+Puntos de historia : 3
+Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio con servicio premium, deben de ser capaces de ver en detalle, la información sobre cada rutina.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe incluir información detallada sobre la rutina: nombre, objetivo, nombre del gimnasio a quien pertenece, y la lista de ejercicios.
+\end{enumerate}
+\subsubsection{PBI: Modificar rutinas premium}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de modificar una rutina premium ya creada.
+Criterios de aceptación:
+\begin{enumerate}
+	\item El usuario debe ser capaz de modificar cualquier campo de información de la rutina.
+	\item Con respecto a la lista de ejercicios, el usuario debe ser capaz de modificar sus tres campos, cambiar su orden en la lista, modificar, eliminar o añadir ejercicios.
+	\item La aplicación debe actualizar cualquier modificación de una rutina en el servidor.
+	\item La aplicación debe informar al usuario si la conexión y modificación de la rutina en el servidor ha sido existosa o si ha habido algún error.
+	\item La aplicación debe permitir únicamente a los entrenadores modificar rutinas premium.
+\end{enumerate}
+\subsubsection{PBI: Modificar rutinas premium}
+Puntos de historia : 3
+Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de eliminar una rutina premium ya creada, eliminándola tanto de la base de datos local en el móvil, cómo de la base de datos remota en el servidor.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe permitir únicamente a los entrenadores eliminar rutinas premium.
+	\item La aplicación debe borrar la rutina tanto en la base de datos local, como en la remota.
+\end{enumerate}
+\subsubsection{PBI: Registro avanzado}
+Puntos de historia : 8
+Requisitos/Historias de usuario: Los usuarios que quieran ser parte del servicio premium, deben ser capaces de poder registrarse mediante un formulario web incluido en la página web de los desarrolladores.
+Criterios de aceptación:
+\begin{enumerate}
+	\item Debe de haber una interfaz en la página web que permita el registro online.
+	\item Debe haber un formulario web que procese de manera automática los registros a servicio premium.
+	\item La página web debe enviar un correo al introducido por el usuario con las claves de usuario y de entrenador de gimnasio.
+	\item La página web debe generar claves únicas e intransferibles para cada usuario registrado.
+\end{enumerate}
+\subsubsection{PBI: Retroalimentación de la descarga} 
+Puntos de historia : 13
+Requisitos/Historias de usuario: El usuario ha de ser notificado en segundo plano, cuando ha iniciado una descarga, mediante una notificación de Android, sobre el estado de la misma.
+Criterios de aceptación:
+\begin{enumerate}
+	\item La aplicación debe de controlar el estado de la descarga, y el procentaje descargado del total.
+	\item La aplicación debe enviar notificaciones sobre la totalidad de la descarga en la barra de acción de Android.
+	\item El usuario puede minimizar la aplicación durante una descarga y la aplicación continuar la descarga en un segundo plano.
+\end{enumerate}
+
 \subsection{Arquitectura}
 \subsubsection{Servidor}
 Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
@@ -536,7 +674,6 @@ Se mantiene una vez más el esqueleto de la arquitectura del primer sprint. Sin 
 	\label{fig: CyCApp2}
 \end{figure}
 Se pueden observar dos nuevos componentes \textit{Services} y \textit{Database}, uno completamente nuevo y el otro toma el lugar de \verb|GymnasioDBAdapter|. Ambos son fruto de dicho proceso de modularización del código. Database contiene todos los objetos y métodos que interactúan con la base de datos SQLite. Por otro lado, Services representa los métodos encargados de interactuar con APIs externas, que en este caso es el servidor de GimnasIO.
-
 \chapter{Proceso}
 \section{Primer Sprint}
 \subsection{Estrategia y herramientas en test y cobertura de código}
