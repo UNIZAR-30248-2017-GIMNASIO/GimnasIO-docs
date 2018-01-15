@@ -65,7 +65,8 @@
 \contentsline {subsection}{\numberline {3.2.3}Definici\IeC {\'o}n de hecho}{39}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Estrategia de control de versiones}{39}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Esfuerzos por persona}{41}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Velocidad del equipo}{41}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.6}Diagrama de trabajo completo/pendiente}{41}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Velocidad del equipo}{42}{subsection.3.2.7}
 \contentsline {chapter}{\numberline {4}Conclusiones}{43}{chapter.4}
 \contentsline {section}{\numberline {4.1}Primer Sprint}{43}{section.4.1}
 \contentsline {section}{\numberline {4.2}Segundo Sprint}{44}{section.4.2}
