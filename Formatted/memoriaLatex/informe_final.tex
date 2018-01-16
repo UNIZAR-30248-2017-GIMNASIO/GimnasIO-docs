@@ -27,7 +27,6 @@
 	{\small Departamento de Ingeniería e Informática de Sistemas,}\\
 	{\small Universidad de Zaragoza}
 }
-
 \author{\textit{Equipo 1: GimnasIO
 		\\Martínez Menéndez, Alberto %- 681061
 		\\Navarro Castillo, Alejandro %- XXXXXX
@@ -78,6 +77,9 @@ Con respecto a los lanzamientos, se han determinado varias fechas de lanzamiento
 	\item Una primera fecha de lanzamiento, el 24 de noviembre, que coincide con la finalización del primer sprint, cuya duración fue desde el 20 de octubre al 24 de noviembre de 2017. Para esta fecha de lanzamiento, el objetivo es presentar una aplicación con las funcionalidades básicas de modificación de rutinas (adición, edición, borrado), y la  vista y descarga de ejercicios de ejercicios desde un servidor remoto.
 	\item Una segunda fecha de lanzamiento, el 30 de enero de 2018,  que coincide con la fecha de finalización del segundo sprint. En esta versión del producto, el objetivo es rehacer la GUI para que siga las guías de estilo y usabilidad de Android, implementar la gestión de rutinas, la gestión de rutinas premium para gimnasios y usuarios premium, e implementar la versión final del back-end.
 \end{itemize}
+
+%\subsection{Análisis de riesgos}
+
 \begin{landscape}
 	\subsection{Análisis de riesgos}
 	\begin{table}[H]
@@ -206,11 +208,11 @@ Con respecto a los lanzamientos, se han determinado varias fechas de lanzamiento
 	\caption{Pila de producto tras retrospectiva.}         
 \end{table}
 En azul entradas del primer sprint. En verde entradas del segundo sprint.
-\subsubsection{PBI: Crear esqueleto de la app}
+\subsubsection{PBI:Crear esqueleto de la app}
 Puntos de historia : 8
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 El usuario ha de ser capaz de poder navegar por las principales pantallas de la aplicación, entre ellas todas las relacionadas con la modificación de rutinas, tanto creación, como edición, borrado y ejecución de la mismas, o las destinadas a la visualización de ejercicios. El requisito es tener un conjunto de actividades interrelacionadas entre sí por las que el usuario pueda navegar de una a otra.
-\par\textbf{Criterios de aceptación:}
+\paragraph{Criterios de aceptación:}
 \begin{enumerate}
 	\item Existe una actividad para cada pantalla de la aplicación, aunque carezcan de información.
 	\item Se puede navegar entre actividades,aunque sea de forma básica.
@@ -218,8 +220,10 @@ El usuario ha de ser capaz de poder navegar por las principales pantallas de la 
 \end{enumerate}
 \subsubsection{PBI: Servidor Remoto}
 Puntos de historia : 13
-\par\textbf{Requisitos/Historias de usuario: } El administrador o administradores del sistema tienen que almacenar información sobre los usuarios premium de la aplicación. En concreto, hay que tener almacenados la clave y la contraseña de todos los gimnasios que sean usuarios premium, y también la contraseña y usuario de todos los clientes de ese gimnasio para que puedan tener acceso a las así  rutinas específicas creadas por el gimnasio. Además, también hay que almacenar los ejercicios en el servidor para que los usuarios freemium puedan acceder a ellos, y descargarlos.
-\par\textbf{Criterios de aceptación}
+\paragraph{Requisitos/Historias de usuario: } 
+
+El administrador o administradores del sistema tienen que almacenar información sobre los usuarios premium de la aplicación. En concreto, hay que tener almacenados la clave y la contraseña de todos los gimnasios que sean usuarios premium, y también la contraseña y usuario de todos los clientes de ese gimnasio para que puedan tener acceso a las así  rutinas específicas creadas por el gimnasio. Además, también hay que almacenar los ejercicios en el servidor para que los usuarios freemium puedan acceder a ellos, y descargarlos.
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Existe una API REST contra la que realizar peticiones para obtener los servicios
 	online requeridos por la aplicación.
@@ -228,22 +232,22 @@ Puntos de historia : 13
 \end{enumerate}
 \subsubsection{PBI: Base de datos local}
 Puntos de historia : 8
-\par\textbf{Requisitos/Historias de usuario:}
+\paragraph{Requisitos/Historias de usuario:}
 \begin{itemize}
 	\item El usuario de la aplicación debe de ser capaz de almacenar toda la información sobre ejercicios y sobre rutinas creadas por él.
 	\item El usuario debe ser capaz de acceder a la información almacenada en la base de datos local, ya sea información sobre rutinas o ejercicios.
 	\item El usuario debe ser capaz de borrar información sobre rutinas de la base de datos local.
 	\item El usuario debe ser capaz de modificar información sobre rutinas de la base de datos.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item El usuario puede almacenar rutinas creadas por él.
 	\item El usuario puede borrar rutinas creadas por él.
 	\item El usuario puede modificar rutinas creadas por él.
 	\item El usuario puede extraer información sobre rutinas, tanto creadas por él o por el gimnasio premium al cual está subscrito, y sobre ejercicios.
 \end{enumerate}
-\par\textbf{Información auxiliar (bocetos GUI, documentación adicional...)}
-\\Se incluye el diagrama de Entidad-Relación de la base de datos:
+\paragraph{Información auxiliar (bocetos GUI, documentación adicional...)}
+Se incluye el diagrama de Entidad-Relación de la base de datos:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{capturicas/er.jpg}
@@ -252,12 +256,12 @@ Puntos de historia : 8
 \end{figure}
 \subsubsection{PBI: Descarga de ejercicios}
 Puntos de historia : 8
-\par\textbf{Requisitos/Historias de usuario:}
+\paragraph{Requisitos/Historias de usuario:}
 \begin{itemize}
 	\item El usuario debe descargar una colección de ejercicios al iniciar la aplicación, los cuales se almacenarán en la base de datos local para su visualización posterior.
 	\item El usuario podrá descargar una versión actualizada de la colección de ejercicios modificada por los administradores de la aplicación.
 \end{itemize}
-\par\textbf{Criterios de aceptación:}
+\paragraph{Criterios de aceptación:}
 \begin{enumerate}
 	\item Si no hay una BD local poblada en el dispositivo la app avisará al usuario de la
 	descarga necesaria.
@@ -265,7 +269,7 @@ Puntos de historia : 8
 	\item Antes de comenzar una descarga se avisa al usuario del tamaño de la descarga.
 	\item Se le da al usuario la opción de comenzar la descarga o salir.
 \end{enumerate}
-\par\textbf{Información auxiliar (bocetos GUI, documentación adicional...)}
+\paragraph{Información auxiliar (bocetos GUI, documentación adicional...)}
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth} %Una minipágina que cubre la mitad de la página
 		\begin{figure}[H]
@@ -286,13 +290,13 @@ Puntos de historia : 8
 \end{figure}
 \subsubsection{PBI: Ver colección de ejercicios}
 Puntos de historia : 13
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación debe de ser capaz de poder acceder a una actividad donde se presente una lista de ejercicios almacenados en la base de datos local.
 	\item Si no se ha realizado la descarga de ejercicios y la base de datos local está vacía, se mostrará una lista vacía.
 	\item Si el usuario hace click en algún ejercicio, la aplicación le lleva a otra actividad dónde puede ver el ejercicio en más detalle.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se puede consultar una lista de ejercicios.
 	\item Cada elemento de la lista mostrara el nombre del elemento y los tags asociados a él.
@@ -300,16 +304,16 @@ Puntos de historia : 13
 \end{enumerate}
 \subsubsection{PBI: Ver ejercicio}
 Puntos de historia : 8
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación podrá ver la información de los ejercicios en detalle: su nombre, músculo utilizado, tags asociados,  imagen que describa cómo hacer el ejercicio, y una descripción que detalle cuál es la forma correcta de realizar el ejercicio.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Al ver un ejercicio aparecerán entre 1 y 5 tags que clasifican el ejercicio.
 	\item Al acceder al ejercicio se visualizará la imagen, músculos trabajados y descripción del mismo
 \end{enumerate}
-\par\textbf{Información auxiliar (bocetos GUI, documentación adicional...)}
+\paragraph{Información auxiliar (bocetos GUI, documentación adicional...)}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.2\textwidth]{capturicas/guipbiverejer.png}
@@ -318,20 +322,20 @@ Puntos de historia : 8
 \end{figure}
 \subsubsection{PBI: Ver rutinas}
 Puntos de historia: 8
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación debe de ser capaz de poder acceder a una actividad donde se presente una lista de rutinas almacenadas en la base de datos local.
 	\item Si la base de datos local no almacena ninguna rutina creada por el usuario, se mostrará una lista vacía.
 	\item Si el usuario hace click en una rutina de la lista, aparecerá un menú con opciones para el tratamiento de rutinas, tales como modificar, ver o eliminar.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se puede consultar una lista de rutinas.
 	\item Cada elemento de la lista mostrara el nombre del elemento y el objetivo
 	asociado.
 	\item Se podrá hacer clic una vez en un elemento de la lista para acceder a un menú sobre el tratamiento del elemento pulsado.
 \end{enumerate}
-\par\textbf{Información auxiliar (bocetos GUI, documentación adicional...)}
+\paragraph{Información auxiliar (bocetos GUI, documentación adicional...)}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.2\textwidth]{capturicas/guipbiverrutinas.png}
@@ -340,28 +344,28 @@ Puntos de historia: 8
 \end{figure}
 \subsubsection{PBI: Crear rutina}
 Puntos de historia: 13
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación debe de ser capaz de poder crear una rutina, añadiendo los valores deseados a los campos de la rutina, y almacenarse en la base de datos local para su tratamiento posterior.
 	\item El usuario debe ser capaz de añadir todos los ejercicios deseados a la rutina.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se puede crear una rutina y añadir ejercicios desde la lista.
 	\item Al crear una rutina se permite darle un nombre, una pequeña descripción y el objetivo de dicha rutina, así como el tiempo de descanso entre ejercicios, el número de repeticiones de los ejercicios, y las series de cada ejercicio.
 \end{enumerate}
 \subsubsection{PBI: Ver rutina}
 Puntos de historia: 8
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación debe de ser capaz de poder ver los campos de cada rutina en más detalle: su nombre, descripción de la misma, objetivo de la rutina, tiempo de descanso entre ejercicios, repeticiones y series de los ejercicios, y una lista de los ejercicios asignados a la rutina.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se podrá consultar una rutina una vez creada.
 	\item Una vez que se está consultando la rutina se podrá acceder a cada ejercicio individualmente para consultar su información.
 \end{enumerate}
-\par\textbf{Información auxiliar (bocetos GUI, documentación adicional...)}
+\paragraph{Información auxiliar (bocetos GUI, documentación adicional...)}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.2\textwidth]{capturicas/guipbiverrutina.png}
@@ -370,25 +374,25 @@ Puntos de historia: 8
 \end{figure}
 \subsubsection{PBI: Modificar rutina}
 Puntos de historia: 5	
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación puede modificar cualquier campo de la rutina deseado, incluyendo la lista de ejercicios, y guardar sus cambios  en la base de datos local.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se podrá modificar la información y todos los elementos de una rutina una vez creada.
 \end{enumerate}
 \subsubsection{PBI: Eliminar rutina} 
 Puntos de historia: 2
-\par\textbf{Requisitos/Historias de usuario}
+\paragraph{Requisitos/Historias de usuario}
 \begin{itemize}
 	\item El usuario de la aplicación puede modificar cualquier campo de la rutina deseado, incluyendo la lista de ejercicios, y guardar sus cambios  en la base de datos local.
 \end{itemize}
-\par\textbf{Criterios de aceptación}
+\paragraph{Criterios de aceptación}
 \begin{enumerate}
 	\item Se podrá modificar la información y todos los elementos de una rutina una vez creada.
 \end{enumerate}
-\subsection{Estado actual de la aplicación}
+\subsection{Estado actual de la aplicación }
 \subsubsection{Funcionalidad implementada}
 En el momento actual, con el primer sprint terminado y sin contar posibles bugs encontrados, la aplicación se encuentra finalizada en su versión mas simple, donde el usuario de la aplicación puede crear rutinas personalizadas y consultar los ejercicios almacenados. Sin embargo, se ha contemplado mejoras tanto en el apartado de creación de rutinas como una mejora visual que aporte una UX mejor que la que aporta actualmente.
 \subsubsection{Boceto inicial GUI}
@@ -398,7 +402,6 @@ En el momento actual, con el primer sprint terminado y sin contar posibles bugs 
 	\caption{Boceto de la GUI}
 	\label{fig: bocGUI}
 \end{figure}
-\subsection{Aspectos de usabilidad}
 \subsection{Arquitectura}
 \subsubsection{Arquitectura: Servidor}
 El servidor está desarrollado en \textit{Node.js} y ofrece una API Rest de la que se sirve la aplicación para las descargas y las funcionalidades online. 
@@ -416,7 +419,7 @@ Este servidor ha sido desarrollado con una arquitectura por capas basada en Mode
 	\label{fig: depSer}
 \end{figure}
 La API cuenta con distintos métodos para consultar: ejercicios, rutinas, fechas de actualización, datos de almacenamiento y gimnasios registrados.
-\newpage\par \textbf{Ejercicios}
+\paragraph{Ejercicios}
 \begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,firstline=0,lastline=23,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/exercisesDoc.txt}
@@ -429,22 +432,23 @@ La API cuenta con distintos métodos para consultar: ejercicios, rutinas, fechas
 	\caption{Especificación de la API GET \textit{/exercises/download}}
 	\label{cod:getDow}
 \end{figure}
-\newpage\par \textbf{Datos Almacenamiento}
 
+
+\paragraph{Datos Almacenamiento}
 \begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/dbdataDoc.txt}
 	\caption{Especificación de la API GET \textit{/dbdata/}}
 	\label{cod:getDbd}
 \end{figure}
-\par \textbf{Rutinas}
+\paragraph{Rutinas}
 \begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/routinesDoc.txt}
 	\caption{Especificación de la API GET \textit{/routines/}}
 	\label{cod:getRou}
 \end{figure}
-\par \textbf{Gimnasios}
+\paragraph{Gimnasios}
 \begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,firstline=1,lastline=22,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/gymsDoc.txt}
@@ -457,7 +461,7 @@ La API cuenta con distintos métodos para consultar: ejercicios, rutinas, fechas
 	\caption{Especificación de la API POST \textit{/gym/newRoutine}}
 	\label{cod:posRut}
 \end{figure}
-\par \textbf{Actualización}
+\paragraph{Actualización}
 \begin{figure}[H]
 	\centering
 	\lstinputlisting[language=python,breaklines=true,postbreak=\mbox{\textcolor{green}{$\hookrightarrow$}},xleftmargin=0.1\textwidth]{capturicas/updateDoc.txt}
@@ -474,7 +478,27 @@ Finalmente, las actividades se encargan de recoger todas estas funcionalidades y
 	\label{fig: CvCApp}
 \end{figure}
 \section{Segundo Sprint}
-\subsection{Pila de Producto}
+\subsection{Plan de producto y planificación de lanzamientos TODO}
+GimnasIO es una aplicación para Android que permite organizar las rutinas de gimnasio. La aplicación permite mantener una serie de rutinas guardadas, las cuales están compuestas de ejercicios seleccionados previamente durante su creación. Cada ejercicio viene acompañado de una explicación textual del mismo, así como de una imagen para que el usuario pueda observar cómo se realiza correctamente dicho ejercicio. La aplicación cuenta además con un reloj/contador para facilitar el control del tiempo de descanso o de la duración de determinados ejercicios.
+\\Para la monetización de la aplicación se ha pensado la puesta en contacto con gimnasios y centros deportivos para que puedan crear sus rutinas privadas, permitiendo que sólo sus clientes tengan acceso mediante una clave a dichas rutinas más complejas y personalizadas. Los gimnasios y centros deportivos deberán abonar una suscripción para poder utilizar este servicio.
+\newline Los requisitos a alto nivel de la aplicación son:
+\begin{itemize}
+	\item Se debe poder consultar la lista de ejercicios de la aplicación.
+	\item Se debe poder crear una rutina de ejercicios, la cual consiste en un conjunto de ejercicios.
+	\item Debe existir una forma de seguir una rutina en tiempo real (ejercicio actual, medición de tiempos de
+	descanso, tiempo total, etc.)
+	\item Se debe poder acceder a la aplicación sin conexión a Internet, pero limitando los servicios.
+	\item La conexión a Internet será necesaria cuando se acceda por primera vez a la aplicación, haya alguna
+	actualización de algún ejercicio o se acceda a una rutina privada de gimnasio.	
+	\item Debe ser ejecutable en dispositivos Android.
+\end{itemize}
+Con respecto a los lanzamientos, se han determinado varias fechas de lanzamiento:
+\begin{itemize}
+	\item Una primera fecha de lanzamiento, el 24 de noviembre, que coincide con la finalización del primer sprint, cuya duración fue desde el 20 de octubre al 24 de noviembre de 2017. Para esta fecha de lanzamiento, el objetivo es presentar una aplicación con las funcionalidades básicas de modificación de rutinas (adición, edición, borrado), y la  vista y descarga de ejercicios de ejercicios desde un servidor remoto.
+	\item Una segunda fecha de lanzamiento, el 30 de enero de 2018,  que coincide con la fecha de finalización del segundo sprint. En esta versión del producto, el objetivo es rehacer la GUI para que siga las guías de estilo y usabilidad de Android, implementar la gestión de rutinas, la gestión de rutinas premium para gimnasios y usuarios premium, e implementar la versión final del back-end.
+\end{itemize}
+\subsection{Análisis de riesgos TODO}
+\subsection{Pila de producto}
 \subsubsection{PBI: Completar actualizar ejercicios}
 Puntos de historia : 13
 
@@ -483,9 +507,9 @@ Requisitos/Historias de usuario: El usuario debe ser capaz de descargar una list
 Criterios de aceptación:
 \begin{itemize}
 	\item Se ha de actualizar y estudiar el código del servidor para proporcionar una descarga sin errores.
-
+	
 	\item Se ha de comprobar la descarga correcta mediante la implementaión de tests automáticos.
-
+	
 \end{itemize}
 \subsubsection{PBI: Modificación de la creación de rutina}
 Puntos de historia : 8
@@ -495,13 +519,13 @@ Requisitos/Historias de usuario: Los ejercicios han de ser modificados para que 
 Criterios de aceptación:
 \begin{enumerate}
 	\item Se ha de actualizar la BD para que almacene objetos con estos campos.
-
+	
 	\item Se han de actualizar los objetos en Java para que concuerden con los campos en la BD, y añadir los campos extra.
-
+	
 	\item La GUI de la aplicación debe de ser actualizada para que el usuario pueda modificar estos tres campos.
-
+	
 	\item Se han de actualizar los tests de BD para que comprueben los cambios realizados.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Modularización del código}
 Puntos de historia : 3
@@ -511,11 +535,11 @@ Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una
 Criterios de aceptación:
 \begin{enumerate}
 	\item Se han separado cada uno de los distintos servicios disponibles en la aplicación en módulos y clases separados, por ejemplo, las funciones relacionadas con la interacción con la API, se han incluido en otro módulo.
-
+	
 	\item Cada servicio posee una interfaz a través de cual se puede llamar al servicio desde cualquier punto del programa.
-
+	
 	\item Se han organizado los módulos de código en distintas carpetas para poder facilitar la búsqueda de algún servicio en particular.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Búsqueda e implantación de herramienta de despliegue automático}
 Puntos de historia : 8
@@ -534,11 +558,11 @@ Requisitos/Historias de usuario: El usuario puede filtrar y hacer búsquedas en 
 Criterios de aceptación:
 \begin{enumerate}
 	\item El usuario debe ser capaz de filtrar una lista de rutinas según dos campos: nombre y objetivo.
-
+	
 	\item El usuario debe ser capaz de filtrar una lista de ejercicios según tres campos: nombre,músculo y tags.
-
+	
 	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, si no que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Ejecutar rutinas}
 
@@ -549,17 +573,17 @@ Requisitos/Historias de usuario: El usuario puede ejecutar cualquier rutina que 
 Criterios de aceptación:
 \begin{enumerate}
 	\item Al final de la lista de ejercicios, debe haber una pantalla que indique el fin de la rutina.
-
+	
 	\item El usuario debe ser capaz de para el cronómetro global.
-
+	
 	\item El usuario debe ser capaz de cambiar de ejercicios cuando desee, deslizándo la pantalla a la derecha.
-
+	
 	\item La aplicación incluye una pantalla principal indicando las instrucciones a seguir.
-
+	
 	\item La aplicación debe incluir información sobre cada ejercicio, esto es, su nombre, el número de series y repeticiones, y unos pasos a seguir para su realización.
-
+	
 	\item La aplicación incluye, tras cada pantalla de ejercicio, una pantalla que inicia una cuenta atrás contando el tiempo de descanso de cada ejercicio.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Registro básico}
 Puntos de historia : 8
@@ -569,9 +593,9 @@ Requisitos/Historias de usuario: Los administradores de la aplicación deben ser
 Criterios de aceptación:
 \begin{enumerate}
 	\item Al dar de alta a un usuario en la BD del servidor, se deben crear claves únicas para cada usuario.
-
+	
 	\item Se deben crear dos claves, una para usuario, y otra para trabajadores( entrenadores personales) de los gimnasios.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Acceso premium}
 Puntos de historia : 3
@@ -581,11 +605,11 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso al servicio p
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe de tener una actividad dónde el usuario pueda introducir sus credenciales.
-
+	
 	\item La aplicación debe conectarse con la API remota y mantener un envío correcto de información, sin errores.
-
+	
 	\item La aplicación debe de permitir o denegar acceso al usuario según la respuesta del servidor.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Ver rutinas premium}
 Puntos de historia : 5
@@ -595,12 +619,12 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe de obtener las rutinas de cada gimnasio mediante una petición lanzada al servidor de la aplicación.
-
+	
 	\item La aplicación debe presentar al usuario las rutinas de cada gimnasio.
-
+	
 	\item La aplicación debe informar al usuario si la comunicación con el servidor ha sido éxitosa o si ha habido algún problema.
 	\item Si el usuario selecciona una rutina de la lista, la aplicación le debe redirigir a una pantalla donde podrá ver la rutina en más detalle.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Crear rutinas premium}
 Puntos de historia : 8
@@ -610,13 +634,13 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe permitir únicamente a los entrenadores crear rutinas premium.
-
+	
 	\item El entrenador debe ser capaz de elegir los ejercicios deseados para su rutina.
-
+	
 	\item El entrenador debe ser capaz de modificar los valores tiempo descanso, series y repeticiones de cada ejercicio.
-
+	
 	\item La aplicación debe de subir y guardar las rutinas en el servidor mediante una petición al mismo.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Ver rutina premium}
 Puntos de historia : 3
@@ -626,7 +650,7 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso a un gimnasio
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe incluir información detallada sobre la rutina: nombre, objetivo, nombre del gimnasio a quien pertenece, y la lista de ejercicios.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Modificar rutinas premium}
 
@@ -637,17 +661,17 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador
 Criterios de aceptación:
 \begin{enumerate}
 	\item El usuario debe ser capaz de modificar cualquier campo de información de la rutina.
-
+	
 	\item Con respecto a la lista de ejercicios, el usuario debe ser capaz de modificar sus tres campos, cambiar su orden en la lista, modificar, eliminar o añadir ejercicios.
-
+	
 	\item La aplicación debe actualizar cualquier modificación de una rutina en el servidor.
-
+	
 	\item La aplicación debe informar al usuario si la conexión y modificación de la rutina en el servidor ha sido existosa o si ha habido algún error.
-
+	
 	\item La aplicación debe permitir únicamente a los entrenadores modificar rutinas premium.
-
+	
 \end{enumerate}
-\subsubsection{PBI: Modificar rutinas premium}
+\subsubsection{PBI: Eliminar rutinas premium}
 Puntos de historia : 3
 
 Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador a un gimnasio con servicio premium, deben de ser capaces de eliminar una rutina premium ya creada, eliminándola tanto de la base de datos local en el móvil, cómo de la base de datos remota en el servidor.
@@ -655,9 +679,9 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe permitir únicamente a los entrenadores eliminar rutinas premium.
-
+	
 	\item La aplicación debe borrar la rutina tanto en la base de datos local, como en la remota.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Registro avanzado}
 Puntos de historia : 8
@@ -667,13 +691,13 @@ Requisitos/Historias de usuario: Los usuarios que quieran ser parte del servicio
 Criterios de aceptación:
 \begin{enumerate}
 	\item Debe de haber una interfaz en la página web que permita el registro online.
-
+	
 	\item Debe haber un formulario web que procese de manera automática los registros a servicio premium.
-
+	
 	\item La página web debe enviar un correo al introducido por el usuario con las claves de usuario y de entrenador de gimnasio.
-
+	
 	\item La página web debe generar claves únicas e intransferibles para cada usuario registrado.
-
+	
 \end{enumerate}
 \subsubsection{PBI: Retroalimentación de la descarga} 
 
@@ -684,12 +708,14 @@ Requisitos/Historias de usuario: El usuario ha de ser notificado en segundo plan
 Criterios de aceptación:
 \begin{enumerate}
 	\item La aplicación debe de controlar el estado de la descarga, y el procentaje descargado del total.
-
+	
 	\item La aplicación debe enviar notificaciones sobre la totalidad de la descarga en la barra de acción de Android.
-
+	
 	\item El usuario puede minimizar la aplicación durante una descarga y la aplicación continuar la descarga en un segundo plano.
 \end{enumerate}
 
+\subsection{Estado actual de la aplicación TODO}
+\subsection{Aspectos de usabilidad TODO}
 \subsection{Arquitectura}
 \subsubsection{Servidor}
 Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
@@ -810,20 +836,20 @@ Para el control de versiones se ha creado una organización como se indicaba des
 	\caption{Distribución de horas invertidas en el primer Sprint.}
 \end{figure}
 \subsection{Diagrama de trabajo completado/pendiente}
-\subsection{Velocidad del equipo}
 A continuación en \ref{fig: burup} y \ref{fig: burdow} se muestran la gráfica de seguimiento del sprint:
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{capturicas/burnup.png}
+	\includegraphics[width=1\textwidth]{capturicas/burnup.png}
 	\caption{Diagrama Burnup}
 	\label{fig: burup}
 \end{figure}
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{capturicas/burndown.png}
-\caption{Diagrama Burndown}
-\label{fig: burdow}
+	\centering
+	\includegraphics[width=1\textwidth]{capturicas/burndown.png}
+	\caption{Diagrama Burndown}
+	\label{fig: burdow}
 \end{figure}
+\subsection{Velocidad del equipo}
 La velocidad del equipo ha sido de 94 P.H en este sprint.
 \subsection{Resultados de la última retrospectiva}
 En la reunión de retrospectiva con el profesorado se han extraído varias conclusiones:
@@ -992,6 +1018,15 @@ Se mantiene la configuración del servidor que construye, realiza las pruebas e 
 
 Una de las tareas de este segundo sprint era la de buscar una herramienta alternativa a Travis que permitiese ejecutar las pruebas en Android. Tras una ardua investigación y horas de infructuoso trabajo, se decide que ninguna alternativa cumple nuestras expectativas, y, por tanto, se decide volver a Travis y abandonar la idea de probar los test de integración automáticamente. En su lugar se realiza únicamente la construcción del proyecto. Sin embargo, en el afán de realizar algo más allá de la construcción, se implementa en Travis que se genere una reléase en Github por cada versión pusheada. Esta implementación se realiza en uno de los repositorios personales (@dari1495 \url{https://github.com/dari1495/GimnasIO-app/releases} ]) .
 \subsection{Definición de hecho}
+Se ha tomado la decisión de que una tarea estará completa cuando cumpla la definición de hecho, que está conformada por los siguientes puntos:
+\begin{itemize}
+	\item Todas las tareas de una entrada de la pila están completadas.
+	\item Se han escrito y ejecutado test unitarios con al menos un $50\%$ de cobertura como resultado.
+	\item Se ha comprobado que, al terminar las tareas de una entrada, el resto de test siguen dando un resultado satisfactorio.
+	\item Se ha realizado una documentación de mínimos del diseño e implementación del código de cara a entender el funcionamiento de este, mediante especificaciones en el código y diagramas de diseño e implementación.
+	\item Se ha probado su correcto funcionamiento en dos dispositivos Android diferentes: OnePlus One y Nexus 4 emulado. Se prueba en el emulador durante el desarrollo y en el dispositivo físico una vez finalizadas las tareas. Se probará tanto de manera automática corriendo los test, como de manera manual, utilizando las funcionalidades recién implementadas.
+	\item El dueño de producto acepta la tarea como finalizada tras comprobar su diseño o funcionamiento.
+\end{itemize}
 \subsection{Estrategia de control de versiones}
 Se mantiene la división en dos repositorios del primer sprint, uno para la aplicación Android y otro para el servidor web. 
 
@@ -1036,7 +1071,8 @@ Siguiendo el diagrama de burnup, el comienzo del sprint sigue sin aparentar mejo
  
 
 La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde se utilizan las horas de coste para cada tarea cerrada como métrica en lugar de puntos de historia. Se observa que, salvo al principio del sprint, se trabaja siempre por debajo del ritmo normal, con lo que se demuestra el ritmo constante de trabajo que no se refleja en el diagrama de burnup.
-
+\subsection{Resultados de la última retrospectiva TODO}
+\subsection{Otros aspectos de la gestión del proyecto y/o proceso de trabajo TODO}
 
 \chapter{Conclusiones}
 \section{Primer Sprint}
