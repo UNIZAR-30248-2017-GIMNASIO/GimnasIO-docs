@@ -58,7 +58,7 @@ El proyecto que se ha llevado a cabo es una aplicación móvil desarrollada para
 \\En la sección que contiene la información del proceso de desarrollo se detallan las estrategias de testing, y de automatización de despliegue, la definición de hecho con las mejoras realizadas a la definición inicial tras la revisión del profesorado, una breve explicación del sistema de control de versiones utilizado, información sobre los esfuerzos realizados así como un diagrama del trabajo completado/pendiente y un calculo de la velocidad del equipo, un análisis de resultados de la última retrospectiva y otros aspectos referentes a la gestión del proyecto que pudieran ser interesantes.
 \chapter{Producto}
 \section{Primer Sprint}
-\subsection{Plan de producto y planificación de lanzamientos}
+\subsection{Plan de producto y planificación de lanzamientos}\label{s:prod1}
 GimnasIO es una aplicación para Android que permite organizar las rutinas de gimnasio. La aplicación permite mantener una serie de rutinas guardadas, las cuales están compuestas de ejercicios seleccionados previamente durante su creación. Cada ejercicio viene acompañado de una explicación textual del mismo, así como de una imagen para que el usuario pueda observar cómo se realiza correctamente dicho ejercicio. La aplicación cuenta además con un reloj/contador para facilitar el control del tiempo de descanso o de la duración de determinados ejercicios.
 \\Para la monetización de la aplicación se ha pensado la puesta en contacto con gimnasios y centros deportivos para que puedan crear sus rutinas privadas, permitiendo que sólo sus clientes tengan acceso mediante una clave a dichas rutinas más complejas y personalizadas. Los gimnasios y centros deportivos deberán abonar una suscripción para poder utilizar este servicio.
 \newline Los requisitos a alto nivel de la aplicación son:
@@ -478,25 +478,24 @@ Finalmente, las actividades se encargan de recoger todas estas funcionalidades y
 	\label{fig: CvCApp}
 \end{figure}
 \section{Segundo Sprint}
-\subsection{Plan de producto y planificación de lanzamientos TODO}
-GimnasIO es una aplicación para Android que permite organizar las rutinas de gimnasio. La aplicación permite mantener una serie de rutinas guardadas, las cuales están compuestas de ejercicios seleccionados previamente durante su creación. Cada ejercicio viene acompañado de una explicación textual del mismo, así como de una imagen para que el usuario pueda observar cómo se realiza correctamente dicho ejercicio. La aplicación cuenta además con un reloj/contador para facilitar el control del tiempo de descanso o de la duración de determinados ejercicios.
-\\Para la monetización de la aplicación se ha pensado la puesta en contacto con gimnasios y centros deportivos para que puedan crear sus rutinas privadas, permitiendo que sólo sus clientes tengan acceso mediante una clave a dichas rutinas más complejas y personalizadas. Los gimnasios y centros deportivos deberán abonar una suscripción para poder utilizar este servicio.
-\newline Los requisitos a alto nivel de la aplicación son:
+\subsection{Plan de producto y planificación de lanzamientos}
+En este sprint se considera que la aplicación ya se debe hallar en una version usable y monetizable 
+\newline Los requisitos a alto nivel de la aplicación son, ademas de los propuestos \ref{s:prod1}:
 \begin{itemize}
-	\item Se debe poder consultar la lista de ejercicios de la aplicación.
-	\item Se debe poder crear una rutina de ejercicios, la cual consiste en un conjunto de ejercicios.
-	\item Debe existir una forma de seguir una rutina en tiempo real (ejercicio actual, medición de tiempos de
-	descanso, tiempo total, etc.)
-	\item Se debe poder acceder a la aplicación sin conexión a Internet, pero limitando los servicios.
-	\item La conexión a Internet será necesaria cuando se acceda por primera vez a la aplicación, haya alguna
-	actualización de algún ejercicio o se acceda a una rutina privada de gimnasio.	
-	\item Debe ser ejecutable en dispositivos Android.
+	\item Se debe poder acceder como miembro premium, ya sea con rol de coach o con rol de usuario.
+	\item Una vez accedido al apartado premium como usuario se debe:
+	\begin{itemize}
+		\item Se debe poder consultar una rutina premium de ejercicios, la cual consiste en un conjunto de ejercicios.
+		\item Se debe poder consultar una lista de rutinas premium.
+	\end{itemize}
+	\item Una vez accedido al apartado premium como coach se debe poder realizar las mismas acciones que como usuario pudiendo ademas:
+	\begin{itemize}
+		\item Crear rutinas premium.
+		\item Editar rutinas premium.
+		\item Eliminar rutinas premium.
+	\end{itemize}
 \end{itemize}
-Con respecto a los lanzamientos, se han determinado varias fechas de lanzamiento:
-\begin{itemize}
-	\item Una primera fecha de lanzamiento, el 24 de noviembre, que coincide con la finalización del primer sprint, cuya duración fue desde el 20 de octubre al 24 de noviembre de 2017. Para esta fecha de lanzamiento, el objetivo es presentar una aplicación con las funcionalidades básicas de modificación de rutinas (adición, edición, borrado), y la  vista y descarga de ejercicios de ejercicios desde un servidor remoto.
-	\item Una segunda fecha de lanzamiento, el 30 de enero de 2018,  que coincide con la fecha de finalización del segundo sprint. En esta versión del producto, el objetivo es rehacer la GUI para que siga las guías de estilo y usabilidad de Android, implementar la gestión de rutinas, la gestión de rutinas premium para gimnasios y usuarios premium, e implementar la versión final del back-end.
-\end{itemize}
+Se considera que la aplicación ya esta preparada para su lanzamiento como versión 1.0.
 \subsection{Análisis de riesgos TODO}
 \subsection{Pila de producto}
 \subsubsection{PBI: Completar actualizar ejercicios}
