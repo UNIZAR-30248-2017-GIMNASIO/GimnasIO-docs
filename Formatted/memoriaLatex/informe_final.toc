@@ -73,54 +73,54 @@
 \contentsline {subsubsection}{PBI: Eliminar rutinas premium}{25}{section*.61}
 \contentsline {subsubsection}{PBI: Registro avanzado}{25}{section*.62}
 \contentsline {subsubsection}{PBI: Retroalimentaci\IeC {\'o}n de la descarga}{25}{section*.63}
-\contentsline {subsection}{\numberline {2.2.4}Estado actual de la aplicaci\IeC {\'o}n TODO}{26}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Estado actual de la aplicaci\IeC {\'o}n}{26}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Aspectos de usabilidad TODO}{26}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Arquitectura}{26}{subsection.2.2.6}
-\contentsline {subsubsection}{Servidor}{26}{section*.64}
-\contentsline {subsubsection}{Aplicaci\IeC {\'o}n m\IeC {\'o}vil}{31}{section*.65}
-\contentsline {chapter}{\numberline {3}Proceso}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Primer Sprint}{33}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{33}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{33}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Definici\IeC {\'o}n de hecho}{33}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Estrategia de control de versiones}{34}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Esfuerzos por persona}{34}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Diagrama de trabajo completado/pendiente}{34}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}Velocidad del equipo}{36}{subsection.3.1.7}
-\contentsline {subsection}{\numberline {3.1.8}Resultados de la \IeC {\'u}ltima retrospectiva}{36}{subsection.3.1.8}
-\contentsline {subsection}{\numberline {3.1.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{36}{subsection.3.1.9}
-\contentsline {section}{\numberline {3.2}Segundo Sprint}{38}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{38}{subsection.3.2.1}
-\contentsline {subsubsection}{Test unitarios de la base de datos}{38}{section*.66}
-\contentsline {paragraph}{Tests sobre ejercicios:}{38}{section*.67}
-\contentsline {paragraph}{Tests sobre rutinas:}{38}{section*.68}
-\contentsline {subsubsection}{Test de llamadas a la api remota}{39}{section*.69}
-\contentsline {subsubsection}{Test de aceptaci\IeC {\'o}n autom\IeC {\'a}ticos}{40}{section*.70}
-\contentsline {subsection}{\numberline {3.2.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{40}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Definici\IeC {\'o}n de hecho}{41}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Estrategia de control de versiones}{41}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Esfuerzos por persona}{42}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Diagrama de trabajo completo/pendiente}{42}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Velocidad del equipo}{43}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Resultados de la \IeC {\'u}ltima retrospectiva TODO}{43}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Otros aspectos de la gesti\IeC {\'o}n del proyecto y/o proceso de trabajo TODO}{43}{subsection.3.2.9}
-\contentsline {chapter}{\numberline {4}Conclusiones}{44}{chapter.4}
-\contentsline {section}{\numberline {4.1}Primer Sprint}{44}{section.4.1}
-\contentsline {section}{\numberline {4.2}Segundo Sprint}{45}{section.4.2}
-\contentsline {chapter}{\numberline {5}ANEXO I: MANUAL DE USUARIO}{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}Informaci\IeC {\'o}n general}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Resumen del sistema}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Configuraci\IeC {\'o}n del sistema}{46}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Niveles de acceso del usuario}{46}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}C\IeC {\'o}mo empezar a usar el sistema}{46}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Descarga e instalaci\IeC {\'o}n}{47}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Uso de la aplicaci\IeC {\'o}n}{47}{subsection.5.3.2}
-\contentsline {subsubsection}{Ejercicios}{49}{section*.71}
-\contentsline {paragraph}{B\IeC {\'u}squeda de ejercicios}{50}{section*.72}
-\contentsline {subsubsection}{Rutinas}{52}{section*.73}
-\contentsline {paragraph}{Buscar y editar rutinas}{53}{figure.5.10}
-\contentsline {paragraph}{A\IeC {\~n}adir ejercicios a rutina}{55}{figure.5.12}
-\contentsline {paragraph}{Ejecutar rutina}{56}{section*.76}
-\contentsline {paragraph}{Borrar rutinas}{59}{figure.5.19}
-\contentsline {subsubsection}{Registro en servicio premium}{59}{section*.78}
-\contentsline {subsubsection}{Servicio premium}{60}{section*.79}
+\contentsline {subsection}{\numberline {2.2.6}Arquitectura}{31}{subsection.2.2.6}
+\contentsline {subsubsection}{Servidor}{31}{section*.64}
+\contentsline {subsubsection}{Aplicaci\IeC {\'o}n m\IeC {\'o}vil}{36}{section*.65}
+\contentsline {chapter}{\numberline {3}Proceso}{38}{chapter.3}
+\contentsline {section}{\numberline {3.1}Primer Sprint}{38}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{38}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{38}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Definici\IeC {\'o}n de hecho}{38}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Estrategia de control de versiones}{39}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Esfuerzos por persona}{39}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Diagrama de trabajo completado/pendiente}{39}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Velocidad del equipo}{41}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Resultados de la \IeC {\'u}ltima retrospectiva}{41}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}Otros aspectos de la gesti\IeC {\'o}n de proyecto y/o proceso de trabajo}{41}{subsection.3.1.9}
+\contentsline {section}{\numberline {3.2}Segundo Sprint}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Estrategia y herramientas en test y cobertura de c\IeC {\'o}digo}{43}{subsection.3.2.1}
+\contentsline {subsubsection}{Test unitarios de la base de datos}{43}{section*.66}
+\contentsline {paragraph}{Tests sobre ejercicios:}{43}{section*.67}
+\contentsline {paragraph}{Tests sobre rutinas:}{43}{section*.68}
+\contentsline {subsubsection}{Test de llamadas a la api remota}{44}{section*.69}
+\contentsline {subsubsection}{Test de aceptaci\IeC {\'o}n autom\IeC {\'a}ticos}{45}{section*.70}
+\contentsline {subsection}{\numberline {3.2.2}Estrategia para la construcci\IeC {\'o}n autom\IeC {\'a}tica de software}{45}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Definici\IeC {\'o}n de hecho}{46}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Estrategia de control de versiones}{46}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Esfuerzos por persona}{47}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Diagrama de trabajo completo/pendiente}{47}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Velocidad del equipo}{48}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Resultados de la \IeC {\'u}ltima retrospectiva TODO}{49}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Otros aspectos de la gesti\IeC {\'o}n del proyecto y/o proceso de trabajo TODO}{49}{subsection.3.2.9}
+\contentsline {chapter}{\numberline {4}Conclusiones}{50}{chapter.4}
+\contentsline {section}{\numberline {4.1}Primer Sprint}{50}{section.4.1}
+\contentsline {section}{\numberline {4.2}Segundo Sprint}{51}{section.4.2}
+\contentsline {chapter}{\numberline {5}ANEXO I: MANUAL DE USUARIO}{52}{chapter.5}
+\contentsline {section}{\numberline {5.1}Informaci\IeC {\'o}n general}{52}{section.5.1}
+\contentsline {section}{\numberline {5.2}Resumen del sistema}{52}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Configuraci\IeC {\'o}n del sistema}{52}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Niveles de acceso del usuario}{52}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}C\IeC {\'o}mo empezar a usar el sistema}{52}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descarga e instalaci\IeC {\'o}n}{53}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Uso de la aplicaci\IeC {\'o}n}{53}{subsection.5.3.2}
+\contentsline {subsubsection}{Ejercicios}{55}{section*.71}
+\contentsline {paragraph}{B\IeC {\'u}squeda de ejercicios}{56}{section*.72}
+\contentsline {subsubsection}{Rutinas}{58}{section*.73}
+\contentsline {paragraph}{Buscar y editar rutinas}{59}{figure.5.10}
+\contentsline {paragraph}{A\IeC {\~n}adir ejercicios a rutina}{61}{figure.5.12}
+\contentsline {paragraph}{Ejecutar rutina}{62}{section*.76}
+\contentsline {paragraph}{Borrar rutinas}{65}{figure.5.19}
+\contentsline {subsubsection}{Registro en servicio premium}{65}{section*.78}
+\contentsline {subsubsection}{Servicio premium}{66}{section*.79}

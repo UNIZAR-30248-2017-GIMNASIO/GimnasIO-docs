@@ -504,16 +504,16 @@ Puntos de historia : 13
 Requisitos/Historias de usuario: El usuario debe ser capaz de descargar una lista de ejercicios sin errores de formato, de descarga o linguisticos, ya que son errores encontrados en el primer sprint y hay que corregirlos.
 
 Criterios de aceptación:
-\begin{itemize}
+\begin{enumerate}
 	\item Se ha de actualizar y estudiar el código del servidor para proporcionar una descarga sin errores.
 	
-	\item Se ha de comprobar la descarga correcta mediante la implementaión de tests automáticos.
+	\item Se ha de comprobar la descarga correcta mediante la implementación de tests automáticos.
 	
-\end{itemize}
+\end{enumerate}
 \subsubsection{PBI: Modificación de la creación de rutina}
 Puntos de historia : 8
 
-Requisitos/Historias de usuario: Los ejercicios han de ser modificados para que puedan almacermar, individualmente, información que en implementaciones anteriores era perteneciente a la rutina global, es decir, cada ejercicio perteneciente a una rutina debe tener sus propios campos de repeticiones, series, y tiempo de descanso.
+Requisitos/Historias de usuario: Los ejercicios se han modificado para que puedan almacenar  individualmente información que en implementaciones anteriores era perteneciente a la rutina global, es decir, cada ejercicio perteneciente a una rutina debe tener sus propios campos de repeticiones, series, y tiempo de descanso.
 
 Criterios de aceptación:
 \begin{enumerate}
@@ -529,7 +529,7 @@ Criterios de aceptación:
 \subsubsection{PBI: Modularización del código}
 Puntos de historia : 3
 
-Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Controlador-Vista (MCV).
+Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Modelo-Vista-Controlador (MCV).
 
 Criterios de aceptación:
 \begin{enumerate}
@@ -543,7 +543,7 @@ Criterios de aceptación:
 \subsubsection{PBI: Búsqueda e implantación de herramienta de despliegue automático}
 Puntos de historia : 8
 
-Requisitos/Historias de usuario: Se ha búscado e implementado satisfactoriamente una herramienta que permita automatizar el proceso de despliegue para reducir las equivocaciones y entregar software rápidamente.
+Requisitos/Historias de usuario: Se ha buscado e implementado satisfactoriamente una herramienta que permita automatizar el proceso de despliegue para reducir las equivocaciones y entregar software rápidamente.
 
 Criterios de aceptación:
 \begin{enumerate}
@@ -560,7 +560,7 @@ Criterios de aceptación:
 	
 	\item El usuario debe ser capaz de filtrar una lista de ejercicios según tres campos: nombre,músculo y tags.
 	
-	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, si no que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
+	\item La búsqueda tiene que realizarse forma automática, el usuario no tiene que pulsar un botón para realizar la búsqueda, sino que la lista tiene que ir filtrándose de acuerdo al input introducido por el usuario.
 	
 \end{enumerate}
 \subsubsection{PBI: Ejecutar rutinas}
@@ -573,9 +573,9 @@ Criterios de aceptación:
 \begin{enumerate}
 	\item Al final de la lista de ejercicios, debe haber una pantalla que indique el fin de la rutina.
 	
-	\item El usuario debe ser capaz de para el cronómetro global.
+	\item El usuario debe ser capaz de parar el cronómetro global.
 	
-	\item El usuario debe ser capaz de cambiar de ejercicios cuando desee, deslizándo la pantalla a la derecha.
+	\item El usuario debe ser capaz de avanzar de ejercicios cuando desee, deslizando la pantalla a la derecha.
 	
 	\item La aplicación incluye una pantalla principal indicando las instrucciones a seguir.
 	
@@ -659,7 +659,7 @@ Requisitos/Historias de usuario: Los usuarios con claves de acceso de entrenador
 
 Criterios de aceptación:
 \begin{enumerate}
-	\item El usuario debe ser capaz de modificar cualquier campo de información de la rutina.
+	\item El usuario \textit{coach }debe ser capaz de modificar cualquier campo de información de la rutina.
 	
 	\item Con respecto a la lista de ejercicios, el usuario debe ser capaz de modificar sus tres campos, cambiar su orden en la lista, modificar, eliminar o añadir ejercicios.
 	
@@ -706,15 +706,91 @@ Requisitos/Historias de usuario: El usuario ha de ser notificado en segundo plan
 
 Criterios de aceptación:
 \begin{enumerate}
-	\item La aplicación debe de controlar el estado de la descarga, y el procentaje descargado del total.
+	\item La aplicación debe de controlar el estado de la descarga, y el porcentaje descargado del total.
 	
 	\item La aplicación debe enviar notificaciones sobre la totalidad de la descarga en la barra de acción de Android.
 	
 	\item El usuario puede minimizar la aplicación durante una descarga y la aplicación continuar la descarga en un segundo plano.
 \end{enumerate}
 
-\subsection{Estado actual de la aplicación TODO}
+\subsection{Estado actual de la aplicación}
+Tras la finalización del segundo sprint, se ha logrado completar la aplicación en varios departamentos. Al final del primer sprint, se tenía una aplicación con una funcionalidad básica, código desordenado, GUI simple y poco trabajada, e incluso algunos errores en la comunicación con el servidor. Al final del segundo sprint, se ha logrado:
+\begin{itemize}
+	\item Ampliar la funcionalidad simple y gratuita de la aplicación a un servicio de pago mediante un registro on-line.
+	\item Añadir funcionalidades extra como búsqueda y filtrado de rutinas y ejercicios o dicho registro on-line.
+	\item Mejorar la GUI logrando que sea mucho más usable y agradable visualmente.
+	\item Arreglar algunos errores en la creación, edición de rutinas y comunicación con el servidor.
+	\item Modificar algunas ideas de diseño del sprint anterior, como la idea de que las series, repeticiones y tiempo de descanso es global a la rutina, para este segundo sprint lo que hemos hecho es añadir esos tres campos a cada ejercicio de la rutina.
+	\item Implementar funcionalidades importantes de nuestra idea de aplicación inicial, como una comunicación correcta con un servidor remoto, y la capacidad de ejecutar una actividad.
+	\item Desarrolar e implementar una página web desde donde puede ser descargable un APK de la aplicación.
+\end{itemize}
+En resumen, se puede afirmar que, tras el trabajo realizado en este segundo sprint, se ha logrado una aplicación más completa, profunda y usable que la obtenida tras el primer sprint, la cual era muy simple, y que sirvió más que nada de prototipo para la implementación de esta nueva versión y todas sus consecuentes mejores. Actualmente, defendemos que esta aplicación puede ser publicada a la tienda App Store de Google debido a su completitud.
 \subsection{Aspectos de usabilidad TODO}
+Uno de los objetivos era lograr proporcionar al usuario una aplicación, además de funcional, que fuera usable. La Organización Internacional para la Estandarización(ISO) ofrece varias definiciones de usabilidad, entre ellas, la incluida en la ISO-9126, que propone:\textit{``La usabilidad se refiere a la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso.''} La aplicación está dirigida a un mercado amplio, en el que el usuario no tiene por qué estar acostumbrado o familiarizado con el mundo tecnológico, por lo que se ha centrado el diseño en una aplicación que fuera fácil de usar por el usuario, y que tuviera en cuenta este déficit de habilidad o conocimiento general tecnológico. 
+\\Además, también se ha seguido, en la medida de lo posible, los principios de diseño e interfaz de usuario ofrecidos por Android (\url{https://developer.android.com/design/get-started/principles.html})
+\\A continuación se expone los principios y decisiones tomadas para lograr que la experiencia del usuario con la aplicación sea cómoda.
+\begin{itemize}
+	\item \textit{Look and feel}: Se ha optado por simplificar la idea de color principal y secundario, y se ha usado únicamente como color principal el color verde, el cual se usa en la barra de acción de Android y en el coloreado de botones y como color secundario hemos elegido el negro, ambos sobre un fondo blanco. Es una combinación de colores suaves que le dota a la aplicación de un toque sencillo y cercano.
+	\item Uso de imágenes inteligente: Se ha gestionado el uso de imágenes como vehículo para mostrar la información, por ejemplo, hemos añadido una imagen en cada ejercicio para que el usuario pueda apoyarse en la imagen para realizar el ejercicio.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/Ejercicio.png}
+		\caption{Vista de un ejercicio.}
+	\end{figure}
+	También se ha diseñado el menú principal en torno a imágenes, para que se acercase más a las ideas reflejadas en las guías de diseño de Android, identificando cada opción del menú con una imagen de fondo distinta, para que el usuario se familiarice antes con el uso de la aplicación.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/Menu.png}
+		\caption{Menú principal.}
+	\end{figure}
+	\item Mantener informado al usuario: Para que el usuario sepa en todo momento en qué parte de la aplicación se encuentra, se ha incluido en la barra de acción de Android información pertinente a la actividad en la que se encuentra el usuario para que nunca se sienta perdido.
+	\item Constancia en el diseño: Para que el usuario no se sienta abrumado por la aplicación se ha diseñado la aplicación de forma en que objetos o iconos de la aplicación realizan la misma funcionalidad por ejemplo, tanto la lista de rutinas como la de ejercicios reaccionan de las misma forma a las acciones realizadas sobre ellas, ambas abren una nueva pestaña si son pulsadas, ambas permiten el borrado de la misma forma si se mantienen pulsadas,…
+	\begin{figure}[H]
+		\begin{minipage}[b]{0.5\linewidth} %Una minipágina que cubre la mitad de la página
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.5\textwidth]{graficos/Usabilidad/Lista1.png}
+				\caption{Lista de rutinas.}
+			\end{figure}
+		\end{minipage}
+		\hspace{0.2cm} % Si queremos tener un poco de espacio entre las dos figuras
+		\begin{minipage}[b]{0.5\linewidth}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.5\textwidth]{graficos/Usabilidad/Lista2.png}
+				\caption{Lista de ejercicios.}
+			\end{figure}
+		\end{minipage}
+	\end{figure}
+	Aunque visualmente no sean 100\% iguales, mantienen una funcionalidad e interacción igual, y esto ayuda al usuario a aprender a usar la aplicación más rápidamente.
+	\item Uso de notificaciones en segundo plano: Se ha añadido notificación de la descarga de ejercicios en segundo plano, manteniendo informado al usuario sobre los cambios importantes relacionados con la aplicación, pero sin usar interrupciones que lleven a la frustración e incomodidad del usuario.
+	\item Diálogo no constante: Se ha optado por incluir un diálogo con el usuario únicamente en decisiones sensibles e importantes, como puede ser borrar una rutina o iniciar una descarga, para evitar hacer que el uso de la aplicación sea pesado mediante diálogo constante para confirmar todas las acciones llevadas a cabo por el usuario.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/dialogo.png}
+		\caption{Confirmación previa al borrado}
+	\end{figure}
+	\item Comunicación gentil de errores: Para informar al usuario de que ha habido algún problema en la aplicación, se notifica de forma que el usuario no se sienta ofendido, por ejemplo, se ha tratado de mostrar los errores de manera educada y respetuosa, siempre indicando que ha sido error de la aplicación, y no del usuario.
+	\item Uso adecuado del lenguaje: Se pretende que la aplicación llegue al mayor número de usuarios posible, se ha comprobado que la descripción de cada ejercicio, puesto que es el párrafo de información más largo e importante, sea sencilla de entender y se ha procurado no usar una terminología muy complicada para usuarios noveles.
+	\item Informar al usuario sin interrumpir: Como la aplicación realiza peticiones contra un servidor, hay que mantener informado al usuario en todo momento si su petición ha sido correcta, pero sin llegar a interrumpir mediante un aviso que ocupe toda la pantalla, por lo que se ha decidido por mantener informado al usuario mediante avisos volátiles, que no le distraen mientras esté ejecutando la aplicación
+\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/toast.png}
+		\caption{Avisos al usuario}
+	\end{figure}
+	\item Búsqueda inteligente: Para ayudar al usuario, se ha implementado una funcionalidad de búsqueda que se actualiza cada vez que el usuario decide añadir o borrar una letra de la barra de búsqueda, generando una búsqueda más sencilla, rápida y que informa al usuario de forma continua, sin la necesidad de que tenga que pulsar un botón, y reiniciar en caso de error.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/busqueda.png}
+		\caption{Menú principal}
+	\end{figure}
+	\item Diseño para múltiples pantallas: También se ha implementado la GUI de forma que soporte su uso en aparatados con pantallas de diversos tamaños, para que los elementos de la GUI se mantengan constantes independientemente del móvil o tablet que el usuario esté utilizando, además del soporte en modo tanto horizontal como vertical.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/portrait.jpg}
+		\caption{Diseño responsive}
+	\end{figure}
+\end{itemize}
 \subsection{Arquitectura}
 \subsubsection{Servidor}
 Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
@@ -1017,14 +1093,15 @@ Se mantiene la configuración del servidor que construye, realiza las pruebas e 
 
 Una de las tareas de este segundo sprint era la de buscar una herramienta alternativa a Travis que permitiese ejecutar las pruebas en Android. Tras una ardua investigación y horas de infructuoso trabajo, se decide que ninguna alternativa cumple nuestras expectativas, y, por tanto, se decide volver a Travis y abandonar la idea de probar los test de integración automáticamente. En su lugar se realiza únicamente la construcción del proyecto. Sin embargo, en el afán de realizar algo más allá de la construcción, se implementa en Travis que se genere una reléase en Github por cada versión pusheada. Esta implementación se realiza en uno de los repositorios personales (@dari1495 \url{https://github.com/dari1495/GimnasIO-app/releases} ]) .
 \subsection{Definición de hecho}
-Se ha tomado la decisión de que una tarea estará completa cuando cumpla la definición de hecho, que está conformada por los siguientes puntos:
+Se ha tomado la decisión de que una entrada de la pila estará completa cuando cumpla la definición de hecho, que está conformada por los siguientes puntos:
 \begin{itemize}
 	\item Todas las tareas de una entrada de la pila están completadas.
-	\item Se han escrito y ejecutado test unitarios con al menos un $50\%$ de cobertura como resultado.
+	\item Supera un test de aceptación automático.
+	\item Se han escrito y ejecutado satisfactoriamente test unitarios probando la funcionalidad implementada.
 	\item Se ha comprobado que, al terminar las tareas de una entrada, el resto de test siguen dando un resultado satisfactorio.
 	\item Se ha realizado una documentación de mínimos del diseño e implementación del código de cara a entender el funcionamiento de este, mediante especificaciones en el código y diagramas de diseño e implementación.
 	\item Se ha probado su correcto funcionamiento en dos dispositivos Android diferentes: OnePlus One y Nexus 4 emulado. Se prueba en el emulador durante el desarrollo y en el dispositivo físico una vez finalizadas las tareas. Se probará tanto de manera automática corriendo los test, como de manera manual, utilizando las funcionalidades recién implementadas.
-	\item El dueño de producto acepta la tarea como finalizada tras comprobar su diseño o funcionamiento.
+	\item El dueño de producto acepta la tarea como finalizada tras comprobar su diseño y funcionamiento.
 \end{itemize}
 \subsection{Estrategia de control de versiones}
 Se mantiene la división en dos repositorios del primer sprint, uno para la aplicación Android y otro para el servidor web. 
@@ -1046,6 +1123,7 @@ La única novedad de este sprint es la creación de un nuevo repositorio únicam
 \end{figure}
 Se puede observar un reparto más o menos parecido de los esfuerzos por persona, cumpliendo el mínimo aproximado de 90h de esfuerzo en la asignatura. Lo más destacable es, probablemente, que haya una menor cantidad de horas trabajadas este segundo sprint pese a haber realizado más puntos de historia. Esto puede ser debido a la experiencia ganada en el primer sprint en cuanto a las tecnologías utilizadas y el trabajo en equipo.
 \subsection{Diagrama de trabajo completo/pendiente}
+Siguiendo el diagrama de burnup, el comienzo del sprint sigue sin aparentar mejoría, pero realmente es debido a la existencia de entradas de la pila “bloqueantes” que impedían cerrar otras entradas hasta que las primeras no fueran terminadas. Se observa una clara mejoría una vez superados los “baches” de las entradas bloqueantes.
 \begin{figure}[H]
 	
 	\centering
@@ -1057,6 +1135,7 @@ Se puede observar un reparto más o menos parecido de los esfuerzos por persona,
 	\label{fig: burnup2}
 	
 \end{figure}
+La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde se utilizan las horas de coste para cada tarea cerrada como métrica en lugar de puntos de historia. Se observa que, salvo al principio del sprint, se trabaja siempre por debajo del ritmo normal, con lo que se demuestra el ritmo constante de trabajo que no se refleja en el diagrama de burnup.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{graficos/burndown.png}
@@ -1065,11 +1144,6 @@ Se puede observar un reparto más o menos parecido de los esfuerzos por persona,
 \end{figure}
 \subsection{Velocidad del equipo}
 Este segundo sprint se prestó más atención a la metodología de trabajo, especialmente a uno de los mayores problemas del primer sprint que fue la acumulación de WIP (Work In Progress). La velocidad del equipo en este Sprint ha sido de 119 P.H.
-
-Siguiendo el diagrama de burnup, el comienzo del sprint sigue sin aparentar mejoría, pero realmente es debido a la existencia de entradas de la pila “bloqueantes” que impedían cerrar otras entradas hasta que las primeras no fueran terminadas. Se observa una clara mejoría una vez superados los “baches” de las entradas bloqueantes.
- 
-
-La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde se utilizan las horas de coste para cada tarea cerrada como métrica en lugar de puntos de historia. Se observa que, salvo al principio del sprint, se trabaja siempre por debajo del ritmo normal, con lo que se demuestra el ritmo constante de trabajo que no se refleja en el diagrama de burnup.
 \subsection{Resultados de la última retrospectiva TODO}
 \subsection{Otros aspectos de la gestión del proyecto y/o proceso de trabajo TODO}
 
