@@ -56,8 +56,10 @@ El proyecto que se ha llevado a cabo es una aplicación móvil desarrollada para
 \\En la sección que detalla la información referente al producto, se encuentra la información sobre el plan de producto y la planificación de lanzamientos, el análisis de riesgos llevado a cabo por el equipo en el desarrollo del producto, la pila de producto planteada hasta la finalización del primer sprint detallando a continuación el estado actual de la aplicación (funcionalidad implementada, GUI, aspectos de usabilidad, problemas conocidos...), por último se explica la arquitectura de la aplicación así como detalles sobre implementación y despliegue de la misma.
 \newline
 \\En la sección que contiene la información del proceso de desarrollo se detallan las estrategias de testing, y de automatización de despliegue, la definición de hecho con las mejoras realizadas a la definición inicial tras la revisión del profesorado, una breve explicación del sistema de control de versiones utilizado, información sobre los esfuerzos realizados así como un diagrama del trabajo completado/pendiente y un calculo de la velocidad del equipo, un análisis de resultados de la última retrospectiva y otros aspectos referentes a la gestión del proyecto que pudieran ser interesantes.
-\chapter{Aspectos Generales}
-\section{Pila de producto}
+
+\chapter{Producto}
+\section{Aspectos Generales}
+\subsection{Pila de producto}
 \begin{table}[H]
 	\centering
 	\label{tab1}
@@ -109,7 +111,7 @@ El proyecto que se ha llevado a cabo es una aplicación móvil desarrollada para
 	\caption{Pila de producto inicial.}         
 \end{table}
 \begin{landscape}
-	\section{Análisis de riesgos}
+	\subsection{Análisis de riesgos}
 	\begin{table}[H]
 		\centering
 		\label{tab: riesgos}
@@ -124,7 +126,7 @@ El proyecto que se ha llevado a cabo es una aplicación móvil desarrollada para
 		\caption{Riesgos detectados}
 	\end{table}                                             
 \end{landscape}
-\chapter{Producto}
+
 \section{Primer Sprint}
 \subsection{Plan de producto y planificación de lanzamientos}\label{s:prod1}
 GimnasIO es una aplicación para Android que permite organizar las rutinas de gimnasio. La aplicación permite mantener una serie de rutinas guardadas, las cuales están compuestas de ejercicios seleccionados previamente durante su creación. Cada ejercicio viene acompañado de una explicación textual del mismo, así como de una imagen para que el usuario pueda observar cómo se realiza correctamente dicho ejercicio. La aplicación cuenta además con un reloj/contador para facilitar el control del tiempo de descanso o de la duración de determinados ejercicios.
@@ -533,7 +535,7 @@ Criterios de aceptación:
 \subsubsection{PBI: Modularización del código}
 Puntos de historia : 3
 
-Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Modelo-Vista-Controlador (MCV).
+Requisitos/Historias de usuario: El código se ha modificado y se ha logrado una modularización del mismo, aplicando el uso de patrones de diseño de software, en específico el patrón Modelo-Vista-Controlador (MVC).
 
 Criterios de aceptación:
 \begin{enumerate}
@@ -720,21 +722,32 @@ Criterios de aceptación:
 \subsection{Estado actual de la aplicación}
 Tras la finalización del segundo sprint, se ha logrado completar la aplicación en varios departamentos. Al final del primer sprint, se tenía una aplicación con una funcionalidad básica, código desordenado, GUI simple y poco trabajada, e incluso algunos errores en la comunicación con el servidor. Al final del segundo sprint, se ha logrado:
 \begin{itemize}
-	\item Ampliar la funcionalidad simple y gratuita de la aplicación a un servicio de pago mediante un registro on-line.
-	\item Añadir funcionalidades extra como búsqueda y filtrado de rutinas y ejercicios o dicho registro on-line.
-	\item Mejorar la GUI logrando que sea mucho más usable y agradable visualmente.
-	\item Arreglar algunos errores en la creación, edición de rutinas y comunicación con el servidor.
-	\item Modificar algunas ideas de diseño del sprint anterior, como la idea de que las series, repeticiones y tiempo de descanso es global a la rutina, para este segundo sprint lo que hemos hecho es añadir esos tres campos a cada ejercicio de la rutina.
-	\item Implementar funcionalidades importantes de nuestra idea de aplicación inicial, como una comunicación correcta con un servidor remoto, y la capacidad de ejecutar una actividad.
-	\item Desarrollar e implementar una página web desde donde puede ser descargable un APK de la aplicación.
+	\item Ampliar la funcionalidad simple y gratuita de la aplicación a un servicio de pago mediante un registro on-line.
+
+	\item Añadir funcionalidades extra como búsqueda y filtrado de rutinas y ejercicios o dicho registro on-line.
+
+	\item Mejorar la GUI logrando que sea mucho más usable y agradable visualmente.
+
+	\item Arreglar algunos errores en la creación, edición de rutinas y comunicación con el servidor.
+
+	\item Modificar algunas ideas de diseño del sprint anterior, como la idea de que las series, repeticiones y tiempo de descanso es global a la rutina, para este segundo sprint lo que hemos hecho es añadir esos tres campos a cada ejercicio de la rutina.
+
+	\item Implementar funcionalidades importantes de nuestra idea de aplicación inicial, como una comunicación correcta con un servidor remoto, y la capacidad de ejecutar una actividad.
+
+	\item Desarrollar e implementar una página web desde donde puede ser descargable un APK de la aplicación.
+
 \end{itemize}
-En resumen, se puede afirmar que, tras el trabajo realizado en este segundo sprint, se ha logrado una aplicación más completa, profunda y usable que la obtenida tras el primer sprint, la cual era muy simple, y que sirvió más que nada de prototipo para la implementación de esta nueva versión y todas sus consecuentes mejores. Actualmente, defendemos que esta aplicación puede ser publicada a la tienda App Store de Google debido a su completitud.
+En resumen, se puede afirmar que, tras el trabajo realizado en este segundo sprint, se ha logrado una aplicación más completa, profunda y usable que la obtenida tras el primer sprint, la cual era muy simple, y que sirvió más que nada de prototipo para la implementación de esta nueva versión y todas sus consecuentes mejores. Actualmente, defendemos que esta aplicación puede ser publicada a la tienda App Store de Google debido a su completitud.
+
 \subsection{Aspectos de usabilidad}
-Uno de los objetivos era lograr proporcionar al usuario una aplicación, además de funcional, que fuera usable. La Organización Internacional para la Estandarización(ISO) ofrece varias definiciones de usabilidad, entre ellas, la incluida en la ISO-9126, que propone:\textit{``La usabilidad se refiere a la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso.''} La aplicación está dirigida a un mercado amplio, en el que el usuario no tiene por qué estar acostumbrado o familiarizado con el mundo tecnológico, por lo que se ha centrado el diseño en una aplicación que fuera fácil de usar por el usuario, y que tuviera en cuenta este déficit de habilidad o conocimiento general tecnológico. 
+Uno de los objetivos era lograr proporcionar al usuario una aplicación, además de funcional, que fuera usable. La Organización Internacional para la Estandarización(ISO) ofrece varias definiciones de usabilidad, entre ellas, la incluida en la ISO-9126, que propone:
+\textit{``La usabilidad se refiere a la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso.''} La aplicación está dirigida a un mercado amplio, en el que el usuario no tiene por qué estar acostumbrado o familiarizado con el mundo tecnológico, por lo que se ha centrado el diseño en una aplicación que fuera fácil de usar por el usuario, y que tuviera en cuenta este déficit de habilidad o conocimiento general tecnológico. 
 \\Además, también se ha seguido, en la medida de lo posible, los principios de diseño e interfaz de usuario ofrecidos por Android (\url{https://developer.android.com/design/get-started/principles.html})
-\\A continuación se expone los principios y decisiones tomadas para lograr que la experiencia del usuario con la aplicación sea cómoda.
+\\A continuación se expone los principios y decisiones tomadas para lograr que la experiencia del usuario con la aplicación sea cómoda.
+
 \begin{itemize}
-	\item \textit{Look and feel}: Se ha optado por simplificar la idea de color principal y secundario, y se ha usado únicamente como color principal el color verde, el cual se usa en la barra de acción de Android y en el coloreado de botones y como color secundario hemos elegido el negro, ambos sobre un fondo blanco. Es una combinación de colores suaves que le dota a la aplicación de un toque sencillo y cercano.
+	\item \textit{Look and feel}: Se ha optado por simplificar la idea de color principal y secundario, y se ha usado únicamente como color principal el color verde, el cual se usa en la barra de acción de Android y en el coloreado de botones y como color secundario hemos elegido el negro, ambos sobre un fondo blanco. Es una combinación de colores suaves que le dota a la aplicación de un toque sencillo y cercano.
+
 	\item Uso de imágenes inteligente: Se ha gestionado el uso de imágenes como vehículo para mostrar la información, por ejemplo, hemos añadido una imagen en cada ejercicio para que el usuario pueda apoyarse en la imagen para realizar el ejercicio.
 	\begin{figure}[H]
 		\centering
@@ -747,7 +760,8 @@ Uno de los objetivos era lograr proporcionar al usuario una aplicación, además
 		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/Menu.png}
 		\caption{Menú principal.}
 	\end{figure}
-	\item Mantener informado al usuario: Para que el usuario sepa en todo momento en qué parte de la aplicación se encuentra, se ha incluido en la barra de acción de Android información pertinente a la actividad en la que se encuentra el usuario para que nunca se sienta perdido.
+	\item Mantener informado al usuario: Para que el usuario sepa en todo momento en qué parte de la aplicación se encuentra, se ha incluido en la barra de acción de Android información pertinente a la actividad en la que se encuentra el usuario para que nunca se sienta perdido.
+
 	\item Constancia en el diseño: Para que el usuario no se sienta abrumado por la aplicación se ha diseñado la aplicación de forma en que objetos o iconos de la aplicación realizan la misma funcionalidad por ejemplo, tanto la lista de rutinas como la de ejercicios reaccionan de las misma forma a las acciones realizadas sobre ellas, ambas abren una nueva pestaña si son pulsadas, ambas permiten el borrado de la misma forma si se mantienen pulsadas,…
 	\begin{figure}[H]
 		\begin{minipage}[b]{0.5\linewidth} %Una minipágina que cubre la mitad de la página
@@ -755,7 +769,8 @@ Uno de los objetivos era lograr proporcionar al usuario una aplicación, además
 				\centering
 				\includegraphics[width=0.5\textwidth]{graficos/Usabilidad/Lista1.png}
 				\caption{Lista de rutinas.}
-			\end{figure}
+			\end{figure}
+
 		\end{minipage}
 		\hspace{0.2cm} % Si queremos tener un poco de espacio entre las dos figuras
 		\begin{minipage}[b]{0.5\linewidth}
@@ -763,19 +778,24 @@ Uno de los objetivos era lograr proporcionar al usuario una aplicación, además
 				\centering
 				\includegraphics[width=0.5\textwidth]{graficos/Usabilidad/Lista2.png}
 				\caption{Lista de ejercicios.}
-			\end{figure}
+			\end{figure}
+
 		\end{minipage}
 	\end{figure}
-	Aunque visualmente no sean 100\% iguales, mantienen una funcionalidad e interacción igual, y esto ayuda al usuario a aprender a usar la aplicación más rápidamente.
-	\item Uso de notificaciones en segundo plano: Se ha añadido notificación de la descarga de ejercicios en segundo plano, manteniendo informado al usuario sobre los cambios importantes relacionados con la aplicación, pero sin usar interrupciones que lleven a la frustración e incomodidad del usuario.
+	Aunque visualmente no sean 100\% iguales, mantienen una funcionalidad e interacción igual, y esto ayuda al usuario a aprender a usar la aplicación más rápidamente.
+
+	\item Uso de notificaciones en segundo plano: Se ha añadido notificación de la descarga de ejercicios en segundo plano, manteniendo informado al usuario sobre los cambios importantes relacionados con la aplicación, pero sin usar interrupciones que lleven a la frustración e incomodidad del usuario.
+
 	\item Diálogo no constante: Se ha optado por incluir un diálogo con el usuario únicamente en decisiones sensibles e importantes, como puede ser borrar una rutina o iniciar una descarga, para evitar hacer que el uso de la aplicación sea pesado mediante diálogo constante para confirmar todas las acciones llevadas a cabo por el usuario.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/dialogo.png}
 		\caption{Confirmación previa al borrado}
 	\end{figure}
-	\item Comunicación gentil de errores: Para informar al usuario de que ha habido algún problema en la aplicación, se notifica de forma que el usuario no se sienta ofendido, por ejemplo, se ha tratado de mostrar los errores de manera educada y respetuosa, siempre indicando que ha sido error de la aplicación, y no del usuario.
-	\item Uso adecuado del lenguaje: Se pretende que la aplicación llegue al mayor número de usuarios posible, se ha comprobado que la descripción de cada ejercicio, puesto que es el párrafo de información más largo e importante, sea sencilla de entender y se ha procurado no usar una terminología muy complicada para usuarios noveles.
+	\item Comunicación gentil de errores: Para informar al usuario de que ha habido algún problema en la aplicación, se notifica de forma que el usuario no se sienta ofendido, por ejemplo, se ha tratado de mostrar los errores de manera educada y respetuosa, siempre indicando que ha sido error de la aplicación, y no del usuario.
+
+	\item Uso adecuado del lenguaje: Se pretende que la aplicación llegue al mayor número de usuarios posible, se ha comprobado que la descripción de cada ejercicio, puesto que es el párrafo de información más largo e importante, sea sencilla de entender y se ha procurado no usar una terminología muy complicada para usuarios noveles.
+
 	\item Informar al usuario sin interrumpir: Como la aplicación realiza peticiones contra un servidor, hay que mantener informado al usuario en todo momento si su petición ha sido correcta, pero sin llegar a interrumpir mediante un aviso que ocupe toda la pantalla, por lo que se ha decidido por mantener informado al usuario mediante avisos volátiles, que no le distraen mientras esté ejecutando la aplicación
 \begin{figure}[H]
 		\centering
@@ -794,7 +814,8 @@ Uno de los objetivos era lograr proporcionar al usuario una aplicación, además
 		\includegraphics[width=0.3\textwidth]{graficos/Usabilidad/portrait.jpg}
 		\caption{Diseño responsive}
 	\end{figure}
-\end{itemize}
+\end{itemize}
+
 \subsection{Arquitectura}
 \subsubsection{Servidor}
 Se mantiene el esqueleto de la arquitectura del primer sprint, a la que se le añaden algunos componentes y se actualizan otros, de acuerdo con las necesidades de este segundo sprint.
@@ -1148,7 +1169,6 @@ La mejoría es mucho mas evidente si se observa el diagrama de burndown, donde s
 \end{figure}
 \subsection{Velocidad del equipo}
 Este segundo sprint se prestó más atención a la metodología de trabajo, especialmente a uno de los mayores problemas del primer sprint que fue la acumulación de WIP (Work In Progress). La velocidad del equipo en este Sprint ha sido de 119 P.H.
-\subsection{Otros aspectos de la gestión del proyecto y/o proceso de trabajo TODO}
 \chapter{Conclusiones}
 \section{Primer Sprint}
 Se espera obtener un grado de al menos notable en este primer sprint. Para ello se han seguido las recomendaciones establecidas en la presentación de Evaluación del proyecto. Las conseguidas satisfactoriamente son:
